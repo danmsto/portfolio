@@ -13,7 +13,7 @@ function App() {
   const generateNavigation = () => {
     return (
       <>
-        <Link id="navlink" className="btn centered" to="/portfolio/">Home</Link>
+        <Link id="navlink" className="btn centered" to="/portfolio">Home</Link>
         <Link id="navlink" className="btn centered" to="/portfolio/about-me">About Me</Link>
         <Link id="navlink" className="btn centered" to="/portfolio/my-projects">My Projects</Link>
         <Button className="centered" href="https://github.com/Daniel22S">My GitHub</Button>
@@ -51,7 +51,7 @@ function App() {
       <Row>
         <Col sm={{ order: 1 }} xs={{ order: 2 }}>
           <Routes>
-            <Route path="/portfolio/home" element={<Home />} />
+            <Route path="/portfolio" element={<Home />} />
             <Route path="/portfolio/about-me" element={<AboutMe />} />
             <Route path="/portfolio/my-projects" element={<MyProjects />} />
           </Routes>
