@@ -16,7 +16,7 @@ function App() {
         <Link id="navlink" className="btn centered" to="/portfolio">Home</Link>
         <Link id="navlink" className="btn centered" to="/portfolio/about-me">About Me</Link>
         <Link id="navlink" className="btn centered" to="/portfolio/my-projects">My Projects</Link>
-        <Button className="centered" href="https://github.com/Daniel22S">My GitHub</Button>
+        <Button className="centered" href="https://github.com/dans328">My GitHub</Button>
       </>
     );
   };
