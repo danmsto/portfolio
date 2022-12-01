@@ -1,18 +1,18 @@
-import collectorImage from "./media/collector.jpg";
-import pizzaImage from "./media/pizza.png";
+import collectorImage from "./media/collector.jpeg";
+import pizzaImage from "./media/pizza.jpeg";
 
 const projects = [
   {
     title: "'poolPool'",
     description:
-      "Tracker for Zero-sum 1-v-1 games",
+      "Tracker for Zero-sum 1-v-1 games (for desktop only)",
     link: "https://daniel22s.github.io/poolPool/",
     linkText: "Have a Look!",
     image: collectorImage,
   },
   {
     title: "'DoughJoe Pizza'",
-    description: "A pizza order site, made as part of a team",
+    description: "A mock pizza vendor website, made alongside the rest of my EyUp Skills cohort",
     link: "https://daniel22s.github.io/doughjoe-pizza",
     linkText: "Hungry?",
     image: pizzaImage,

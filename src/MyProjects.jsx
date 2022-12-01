@@ -27,7 +27,7 @@ function MyProjects() {
   return (
     <>
       <h2>My Projects</h2>
-      <Container className="centered">
+      <Container >
         <Carousel variant="dark">{generateCarousel()}</Carousel>
       </Container>
     </>
