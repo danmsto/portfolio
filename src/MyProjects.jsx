@@ -7,7 +7,7 @@ function MyProjects() {
       return (
         <Carousel.Item
           key={project.title}
-          interval={5000}
+          interval={10000}
         >
           <img
             className="carousel-image"
@@ -17,7 +17,7 @@ function MyProjects() {
           <Carousel.Caption>
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <Button href={project.link}>{project.linkText}</Button>
+            <Button href={project.link} target="_blank">{project.linkText}</Button>
           </Carousel.Caption>
         </Carousel.Item>
       );
@@ -27,7 +27,7 @@ function MyProjects() {
   return (
     <>
       <h2>My Projects</h2>
-      <Container className="centered">
+      <Container >
         <Carousel variant="dark">{generateCarousel()}</Carousel>
       </Container>
     </>
