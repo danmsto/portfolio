@@ -24,7 +24,7 @@ const content = {
       Functionalised Piperidines under Prof Peter O'Brien`
     }
   ],
-  siteFooter: "Last Manual Update 2022-11-29"
+  siteFooter: "Last Manual Update 2022-12-02"
 
 
 };
