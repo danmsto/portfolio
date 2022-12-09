@@ -56,19 +56,7 @@ function App() {
             <Route path="/portfolio/my-projects" element={<MyProjects />} />
           </Routes>
         </Col>
-        {/* <Col
-          sm={{ order: 2, span: 3 }}
-          xs={{ order: 1 }}
-          className="d-block d-xs-none"
-        >
-          <Nav variant="pills" className="flex-sm-column centered">{generateNavigation()}</Nav>
-        </Col> */}
       </Row>
-      {/* <Row>
-        <div>
-          
-        </div>
-      </Row> */}
     </Container>
   );
 }
