@@ -4,7 +4,6 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { Col, Row } from "react-bootstrap";
 import Home from "./Home";
-import AboutMe from "./AboutMe";
 import MyProjects from "./MyProjects";
 import content from "./content";
 
@@ -14,7 +13,6 @@ function App() {
     return (
       <>
         <Link id="navlink" className="btn centered" to="/portfolio">Home</Link>
-        <Link id="navlink" className="btn centered" to="/portfolio/about-me">About Me</Link>
         <Link id="navlink" className="btn centered" to="/portfolio/my-projects">My Projects</Link>
         <Button className="centered" href="https://github.com/danmsto">My GitHub</Button>
       </>
@@ -52,7 +50,6 @@ function App() {
         <Col sm={{ order: 1 }} xs={{ order: 2 }}>
           <Routes>
             <Route path="/portfolio" element={<Home />} />
-            <Route path="/portfolio/about-me" element={<AboutMe />} />
             <Route path="/portfolio/my-projects" element={<MyProjects />} />
           </Routes>
         </Col>
