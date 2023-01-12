@@ -6,6 +6,7 @@ import { Col, Row } from "react-bootstrap";
 import Home from "./Home";
 import MyProjects from "./MyProjects";
 import content from "./content";
+import AboutMe from "./AboutMe";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Link id="navlink" className="btn centered" to="/portfolio">Home</Link>
         <Link id="navlink" className="btn centered" to="/portfolio/my-projects">My Projects</Link>
         <Button className="centered" href="https://github.com/danmsto">My GitHub</Button>
+        <Button className="centered" href="https://linkedin.com/in/danmsto">My LinkedIn</Button>
       </>
     );
   };
@@ -47,11 +49,17 @@ function App() {
         </Navbar>
       </Row>
       <Row>
-        <Col sm={{ order: 1 }} xs={{ order: 2 }}>
-          <Routes>
+        <Col sm={9} xs={12}>
+          {/* <Routes>
             <Route path="/portfolio" element={<Home />} />
             <Route path="/portfolio/my-projects" element={<MyProjects />} />
-          </Routes>
+          </Routes> */}
+          {<AboutMe />}
+          {<MyProjects />}
+        </Col>
+        <Col sm={3} xs={12}>
+          {<Home />}
+          {generateNavigation()}
         </Col>
       </Row>
     </Container>
