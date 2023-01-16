@@ -28,7 +28,7 @@ const projects = [
   {
     title: "Sweet Release",
     description: "A Text Adventure Game, made with the rest of the EyUp Skills Cohort",
-    link: "https://danmsto.github.io/pizza",
+    link: "https://replit.com/@danmsto/Sweet-Release?v=1",
     linkText: "Play",
     image: gameImage,
     logo: gameLogo
