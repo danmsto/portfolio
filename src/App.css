@@ -62,3 +62,18 @@
   justify-content: center;
   align-items: center;
 }
+
+.bodyCol {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.whiteText {
+  font-family: 'Comfortaa', cursive;
+  color: white;
+}
+
+.blackText {
+  font-family: 'Abel', sans-serif;
+  color: black;
+}

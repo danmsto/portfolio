@@ -1,5 +1,5 @@
-import { Button, Carousel, Container } from "react-bootstrap";
-import projects from "./projects.js";
+import { Button, Carousel, Container, Image } from "react-bootstrap";
+import projects from "../content/projects.js";
 
 function MyProjects() {
   const generateCarousel = () => {
@@ -7,7 +7,7 @@ function MyProjects() {
       return (
         <Carousel.Item
           key={project.title}
-          interval={10000}
+          interval={20000}
         >
           <img
             className="carousel-image"
@@ -15,7 +15,7 @@ function MyProjects() {
             alt="Not appearing"
           />
           <Carousel.Caption>
-            <h3>{project.title}</h3>
+            <h3><Image src={project.logo}></Image> {project.title}</h3>
             <p>{project.description}</p>
             <Button href={project.link} target="_blank">{project.linkText}</Button>
           </Carousel.Caption>

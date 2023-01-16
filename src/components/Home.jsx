@@ -1,7 +1,8 @@
 import { Container } from "react-bootstrap";
-import content from "./content";
+import content from "../content/content";
 
 function Home() {
+
   return (
     <Container>
       <h2>{content.homeHeading}</h2>
