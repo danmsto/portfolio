@@ -7,8 +7,6 @@ import MyProjects from "./components/MyProjects";
 import AboutMe from "./components/AboutMe";
 import Heading from "./components/Heading";
 import Subheading from "./components/Subheading";
-import Links from "./components/Links";
-import MobileNavBar from "./components/MobileNavBar";
 
 function App() {
 
@@ -16,17 +14,13 @@ function App() {
     <Container>
       {<Heading />}
       {<Subheading />}
-      <Row >
-        {<MobileNavBar />}
-      </Row>
       <Row>
-        <Col sm={9} xs={12}>
-          {<AboutMe />}
+        <Col sm={8} xs={12} id="bodyCol" className="bodyCol blackText">
+          {<Home />}
           {<MyProjects />}
         </Col>
-        <Col sm={3} xs={12}>
-          {<Home />}
-          {<Links />}
+        <Col sm={4} xs={12} className="blackText">
+          {<AboutMe />}
         </Col>
       </Row>
     </Container>

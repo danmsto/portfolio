@@ -1,6 +1,6 @@
-import yorkimage from "./media/universityofyork.png";
-import infineumimage from "./media/infineum.png";
-import eyupimage from "./media/eyup.png";
+import yorkimage from "./universityofyork.png";
+import infineumimage from "./infineum.png";
+import eyupimage from "./eyup.png";
 
 
 const content = {
@@ -39,8 +39,7 @@ const content = {
       location: "The University of York",
       dates: "2014-2018"
     }
-  ],
-  siteFooter: "Last Manual Update 2022-12-02"
+  ]
 
 
 };

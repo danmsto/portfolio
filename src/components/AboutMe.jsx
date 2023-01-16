@@ -1,15 +1,15 @@
-import { Card, Col, Container, Row } from "react-bootstrap";
-import content from "../content";
+import { Card, Container, Row } from "react-bootstrap";
+import content from "../content/content";
 
 function AboutMe() {
 
   const generateExperience = () => {
     return (
-      <Row xs={1} md={3} className="g-4">
+      <>
         {content.experience.map((experience) => {
           return (
-            <Col>
-              <Card>
+            <Row className="sideCol">
+              <Card className="p-0 mb-2">
                 <Card.Header>
                   <img src={experience.image} alt="experience" height={48} width={48} />
                   {experience.heading}
@@ -19,18 +19,15 @@ function AboutMe() {
                 </Card.Body>
                 <Card.Footer>{experience.location}, {experience.dates}</Card.Footer>
               </Card>
-            </Col>
+            </Row>
           );
         })}
-      </Row>
+      </>
     );
   };
 
   return (
     <Container>
-      <h2>{content.aboutTitle}</h2>
-      <h6>{content.aboutPersonal}</h6>
-      <h3>{content.experienceIntro}</h3>
       {generateExperience()}
     </Container>
   )

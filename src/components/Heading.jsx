@@ -1,10 +1,10 @@
 import { Row } from "react-bootstrap";
-import content from "../content";
+import content from "../content/content";
 
 function Heading() {
 
   return (
-    <Row>
+    <Row className="whiteText">
       <div>
         <h1 className="centered">{content.siteHeader}</h1>
       </div>
