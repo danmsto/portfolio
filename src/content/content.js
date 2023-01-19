@@ -4,15 +4,10 @@ import eyupimage from "./eyup.png";
 
 
 const content = {
-  siteHeader: "Daniel M Stoddart",
-  siteSubheader: "EyUp Skills Developer Academy • Chemistry at The University of York",
+  siteHeader: "Daniel Stoddart",
+  siteSubheader: "Coding Academy Graduate & Former Industrial R&D Chemist",
   homeHeading: "Former Industrial Research & Development Chemist pursuing a career in Software Development",
-  homeSubheading: "I am finishing the EyUp Skills Developer Academy Full Stack Bootcamp in December 2022",
   homeBody: "Welcome to my Portfolio site, which has been built using React Bootstrap and Javascript, enjoy!",
-  aboutTitle: "About Me",
-  aboutPersonal: `I grew up in Sheffield and attended the University of York and completed a Masters Degree in Chemistry.
-     After University I entered the Private Sector in Engine Oil Additives with Infineum UK Ltd in Oxfordshire, a joint venture between Shell and ExxonMobil,
-     before making the decision to change career paths and enter Software Development with a place at the EyUp Skills Developer Academy`,
   experienceIntro: "Here is a brief overview of my experience",
   experience: [
     {

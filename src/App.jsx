@@ -15,7 +15,7 @@ function App() {
       {<Heading />}
       {<Subheading />}
       <Row>
-        <Col sm={8} xs={12} id="bodyCol" className="bodyCol blackText">
+        <Col sm={8} xs={12} id="bodyCol" className="bodyCol blackText p-3">
           {<Home />}
           {<MyProjects />}
         </Col>
