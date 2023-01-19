@@ -46,7 +46,7 @@
 }
 
 .carousel-caption {
-  background-color: whitesmoke;
+  background-color: powderblue;
   border-radius: 5px;
 }
 
@@ -76,4 +76,16 @@
 .blackText {
   font-family: 'Abel', sans-serif;
   color: black;
+}
+
+.card-header {
+  background-color: powderblue;
+}
+
+.card-footer {
+  background-color: white;
+}
+
+.siteHeader {
+  margin-top: 2%;
 }
