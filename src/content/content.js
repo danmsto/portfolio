@@ -36,7 +36,7 @@ const content = {
         "• Designing and executing experimental programmes in external labs across Europe and North America for novel Product Development as well as performing proprietary experimentation for data generation",
         "• Processing test data using JMP Statistical Modelling software",
         "• Providing customer technical support for Daimler AG and later on the Shell International Account",
-        "• Managing projects in Product Development, Test Problem Understanding and Solution, and Systems Improvement while stakeholder expectations and budgets up to £200,000",
+        "• Managing projects in Product Development, Test Problem Understanding and Solution, and Systems Improvement while managing stakeholder expectations and budgets up to £200,000",
         "• Authoring two published Technical Reports"
       ],
       image: infineumimage,

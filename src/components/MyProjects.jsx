@@ -14,7 +14,7 @@ function MyProjects() {
             src={project.image}
             alt="Not appearing"
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="mb-4">
             <h3><Image src={project.logo}></Image> {project.title}</h3>
             <p>{project.description}</p>
             <p>{project.madeWith}</p>
