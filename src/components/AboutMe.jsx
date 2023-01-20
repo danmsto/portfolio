@@ -8,7 +8,7 @@ function AboutMe() {
       <>
         {content.experience.map((experience) => {
           return (
-            <Row className="sideCol">
+            <Row className="sideCol" key={experience.heading}>
               <Card className="p-0 mb-2">
                 <Card.Header>
                   <img src={experience.image} alt="experience" height={48} width={48} />

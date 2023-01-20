@@ -26,12 +26,9 @@ function MyProjects() {
   };
 
   return (
-    <>
-      <h2>My Projects</h2>
-      <Container >
-        <Carousel variant="dark">{generateCarousel()}</Carousel>
-      </Container>
-    </>
+    <Container className="p-0">
+      <Carousel variant="dark">{generateCarousel()}</Carousel>
+    </Container>
   );
 }
 

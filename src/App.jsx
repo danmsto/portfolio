@@ -7,6 +7,7 @@ import MyProjects from "./components/MyProjects";
 import AboutMe from "./components/AboutMe";
 import Heading from "./components/Heading";
 import Subheading from "./components/Subheading";
+import ProjectFlipCards from "./components/ProjectFlipCards";
 
 function App() {
 
@@ -15,9 +16,14 @@ function App() {
       {<Heading />}
       {<Subheading />}
       <Row>
-        <Col sm={8} xs={12} id="bodyCol" className="bodyCol blackText p-3">
-          {<Home />}
-          {<MyProjects />}
+        <Col sm={8} xs={12}>
+          <Row className="bodySection blackText">
+            {<MyProjects />}
+          </Row>
+          <Row className="bodySection blackText p-3 mt-2">
+            {<Home />}
+            {<ProjectFlipCards />}
+          </Row>
         </Col>
         <Col sm={4} xs={12} className="blackText">
           {<AboutMe />}
