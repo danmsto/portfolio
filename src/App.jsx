@@ -13,8 +13,6 @@ function App() {
 
   return (
     <Container>
-      {/* {<Heading />}
-      {<Subheading />} */}
       <Row>
       <Col sm={8} xs={12}>
         {<Heading />}

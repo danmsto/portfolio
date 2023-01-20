@@ -18,7 +18,7 @@ function MyProjects() {
             <h3><Image src={project.logo}></Image> {project.title}</h3>
             <p>{project.description}</p>
             <p>{project.madeWith}</p>
-            <Button href={project.link} target="_blank">{project.linkText}</Button>
+            <Button href={project.link} target="_blank" rel="noreferrer">{project.linkText}</Button>
           </Carousel.Caption>
         </Carousel.Item>
       );
