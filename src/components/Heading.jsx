@@ -4,7 +4,7 @@ import content from "../content/content";
 function Heading() {
 
   return (
-    <Row className="whiteText">
+    <Row className="headerText siteHeader">
       <div>
         <h1 className="centered">{content.siteHeader}</h1>
       </div>

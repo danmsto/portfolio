@@ -17,7 +17,8 @@ function MyProjects() {
           <Carousel.Caption>
             <h3><Image src={project.logo}></Image> {project.title}</h3>
             <p>{project.description}</p>
-            <Button href={project.link} target="_blank">{project.linkText}</Button>
+            <p>{project.madeWith}</p>
+            <Button href={project.link} target="_blank" rel="noreferrer">{project.linkText}</Button>
           </Carousel.Caption>
         </Carousel.Item>
       );
@@ -25,12 +26,9 @@ function MyProjects() {
   };
 
   return (
-    <>
-      <h2>My Projects</h2>
-      <Container >
-        <Carousel variant="dark">{generateCarousel()}</Carousel>
-      </Container>
-    </>
+    <Container className="p-0">
+      <Carousel variant="dark">{generateCarousel()}</Carousel>
+    </Container>
   );
 }
 

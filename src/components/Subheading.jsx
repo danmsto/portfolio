@@ -4,9 +4,9 @@ import content from "../content/content";
 function Subheading() {
 
   return (
-    <Row className="whiteText">
+    <Row className="headerText">
       <div>
-        <p className="centered">{content.siteSubheader}</p>
+        <h6 className="centered subheading">{content.siteSubheader}</h6>
       </div>
     </Row>
   )
