@@ -6,8 +6,10 @@ import eyupimage from "./eyup.png";
 const content = {
   siteHeader: "Daniel Stoddart",
   siteSubheader: "Coding Academy Graduate & Former Industrial R&D Chemist",
-  homeHeading: "Former Industrial Research & Development Chemist pursuing a career in Software Development",
-  homeBody: "Welcome to my Portfolio site, which has been built using React Bootstrap and Javascript, enjoy!",
+  homeHeading: "Looking to enter software development",
+  homeBody: "Target-oriented team player who delivers to a high standard and works well under pressure,"
+  +" has delivered impactful projects within budget and to deadline, and has a proven track record of process and systems improvement."
+  +" Quick learner keen to gain new skills and expand knowledge.",
   experienceIntro: "Here is a brief overview of my experience",
   experience: [
     {
