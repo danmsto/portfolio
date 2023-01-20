@@ -6,7 +6,7 @@ function Subheading() {
   return (
     <Row className="headerText">
       <div>
-        <h6 className="subheading">{content.siteSubheader}</h6>
+        <h6 className="centered subheading">{content.siteSubheader}</h6>
       </div>
     </Row>
   )

@@ -1,5 +1,6 @@
 import { Card, Container, Row } from "react-bootstrap";
 import content from "../content/content";
+import ExperienceBulletPoints from "./ExperienceBulletPoints";
 
 function AboutMe() {
 
@@ -15,9 +16,13 @@ function AboutMe() {
                   {experience.heading}
                 </Card.Header>
                 <Card.Body>
-                  <Card.Text>{experience.body}</Card.Text>
+                  <Card.Text>
+                    {<ExperienceBulletPoints bulletPoints={experience.bulletPoints} />}
+                  </Card.Text>
                 </Card.Body>
-                <Card.Footer>{experience.location}, {experience.dates}</Card.Footer>
+                <Card.Footer>
+                  {experience.location}, {experience.dates}
+                </Card.Footer>
               </Card>
             </Row>
           );
