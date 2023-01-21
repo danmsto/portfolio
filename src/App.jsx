@@ -23,7 +23,7 @@ function App() {
       </Col>
       </Row>
       <Row>
-        <Col sm={8} xs={12}>
+        <Col md={8} sm={12} xs={12}>
           <Row className="bodySection blackText">
             {<MyProjects />}
           </Row>
@@ -31,7 +31,7 @@ function App() {
             {<Home />}
           </Row>
         </Col>
-        <Col sm={4} xs={12} className="blackText">
+        <Col md={4} sm={12} xs={12} className="blackText">
           {<AboutMe />}
         </Col>
       </Row>
