@@ -1,42 +1,31 @@
-import { Card, Container, Row } from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
 import content from "../content/content";
 import ExperienceBulletPoints from "./ExperienceBulletPoints";
 
 function AboutMe() {
 
-  const generateExperience = () => {
-    return (
-      <>
+  return (
+    <>
+      <Accordion defaultActiveKey="Full Stack Developer Student">
         {content.experience.map((experience) => {
           return (
-            <Row className="sideCol" key={experience.heading}>
-              <Card className="p-0 mb-2">
-                <Card.Header>
-                  <img src={experience.image} alt="experience" height={48} width={48} />
-                  {experience.heading}
-                </Card.Header>
-                <Card.Body>
-                  <Card.Text>
-                    {<ExperienceBulletPoints bulletPoints={experience.bulletPoints} />}
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  {experience.location}, {experience.dates}
-                </Card.Footer>
-              </Card>
-            </Row>
-          );
+            <Accordion.Item eventKey={experience.heading} key={experience.heading}>
+              <Accordion.Header>
+                <img src={experience.image} alt={experience.heading} height={48} width={48} />
+                {experience.location}&emsp;<em>{experience.dates}</em>
+              </Accordion.Header>
+              <Accordion.Body>
+                <strong>{experience.heading}</strong>
+                <ExperienceBulletPoints bulletPoints={experience.bulletPoints} />
+              </Accordion.Body>
+            </Accordion.Item>
+          )
         })}
-      </>
-    );
-  };
-
-  return (
-    <Container>
-      {generateExperience()}
-    </Container>
+      </Accordion>
+      <img className="codewarsImg" alt="Codewars" src="https://www.codewars.com/users/danmsto/badges/large" />
+    </>
   )
 
-}
+};
 
 export default AboutMe;

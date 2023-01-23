@@ -14,11 +14,11 @@ function MyProjects() {
             src={project.image}
             alt="Not appearing"
           />
-          <Carousel.Caption>
+          <Carousel.Caption className="mb-4">
             <h3><Image src={project.logo}></Image> {project.title}</h3>
             <p>{project.description}</p>
             <p>{project.madeWith}</p>
-            <Button href={project.link} target="_blank" rel="noreferrer">{project.linkText}</Button>
+            <Button variant="light" href={project.link} target="_blank" rel="noreferrer">{project.linkText}</Button>
           </Carousel.Caption>
         </Carousel.Item>
       );
@@ -27,7 +27,7 @@ function MyProjects() {
 
   return (
     <Container className="p-0">
-      <Carousel variant="dark">{generateCarousel()}</Carousel>
+      <Carousel variant="light">{generateCarousel()}</Carousel>
     </Container>
   );
 }

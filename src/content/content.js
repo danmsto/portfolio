@@ -6,6 +6,12 @@ import eyupimage from "./eyup.png";
 const content = {
   siteHeader: "Daniel Stoddart",
   siteSubheader: "Coding Academy Graduate & Former Industrial R&D Chemist",
+  siteHeaders: {
+    name: "Daniel Stoddart",
+    uni: "MChem in Chemistry",
+    rnd: "Former Industrial R&D Chemist",  
+    cod: "Coding Academy Graduate"
+  },
   homeHeading: "Recent Graduate of the EyUp Skills Full Stack Development Bootcamp",
   homeBody: "Target-oriented team player who delivers to a high standard and works well under pressure,"
   +" has delivered impactful projects within budget and to deadline, and has a proven track record of process and systems improvement."
@@ -13,7 +19,7 @@ const content = {
   experienceIntro: "Here is a brief overview of my experience",
   experience: [
     {
-      heading: "Full Stack Developer Student",
+      heading: "Full Stack Software Development Student",
       bulletPoints: [
         "Software Development bootcamp launched by David Richards MBE, CEO of WANdisco, plc., in partnership with IO Academy",
         "• Building functional Web Apps as part of Project Teams using Scrum methodology with Continuous Integration and Integration Testing",
@@ -36,14 +42,14 @@ const content = {
         "• Designing and executing experimental programmes in external labs across Europe and North America for novel Product Development as well as performing proprietary experimentation for data generation",
         "• Processing test data using JMP Statistical Modelling software",
         "• Providing customer technical support for Daimler AG and later on the Shell International Account",
-        "• Managing projects in Product Development, Test Problem Understanding and Solution, and Systems Improvement while stakeholder expectations and budgets up to £200,000",
+        "• Managing projects in Product Development, Test Problem Understanding and Solution, and Systems Improvement while managing stakeholder expectations and budgets up to £200,000",
         "• Authoring two published Technical Reports"
       ],
       image: infineumimage,
       location: "Infineum UK Ltd",
       dates: "2018-2022"
     }, {
-      heading: "MChem Student",
+      heading: "Chemistry Student",
       bulletPoints: [
         "• First-class MChem in Chemistry degree awarded",
         "• Master’s Project in Synthetic Chemistry under Prof Peter O’Brien"
