@@ -4,7 +4,7 @@ function ExperienceBulletPoints({bulletPoints}) {
     <>
       {bulletPoints.map((bulletPoint) => {
         return (
-          <p className="experienceBulletPoints" key={bulletPoint.key}>{bulletPoint}</p>
+          <p className="experienceBulletPoints" key={bulletPoint}>{bulletPoint}</p>
         )
       })}
     </>

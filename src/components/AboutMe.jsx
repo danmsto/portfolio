@@ -1,7 +1,6 @@
-import { Accordion, Card, Container, Row } from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
 import content from "../content/content";
 import ExperienceBulletPoints from "./ExperienceBulletPoints";
-import Links from "./Links";
 
 function AboutMe() {
 
@@ -12,7 +11,7 @@ function AboutMe() {
           return (
             <Accordion.Item eventKey={experience.heading} key={experience.heading}>
               <Accordion.Header>
-                <img src={experience.image} alt="experience" height={48} width={48} />
+                <img src={experience.image} alt={experience.heading} height={48} width={48} />
                 {experience.heading}
               </Accordion.Header>
               <Accordion.Body>
@@ -23,10 +22,7 @@ function AboutMe() {
           )
         })}
       </Accordion>
-      <div className="linkCont">
-        <Links />
-      </div>
-      <img className="codewarsImg" src="https://www.codewars.com/users/danmsto/badges/large" />
+      <img className="codewarsImg" alt="Codewars" src="https://www.codewars.com/users/danmsto/badges/large" />
     </>
   )
 

@@ -1,3 +1,8 @@
+body {
+  background-color: mediumseagreen;
+  background: mediumseagreen;
+}
+
 .App {
   text-align: center;
   background-color: mediumseagreen;
@@ -48,7 +53,7 @@
 
 .carousel-caption {
   background-color: white;
-  color: black  ;
+  color: black;
   border-radius: 5px;
   padding: 5px;
 }
@@ -73,9 +78,10 @@
 }
 
 .headerText {
-  font-family: 'Comfortaa', cursive;
+  font-family: 'Azeret Mono', monospace;
   color: black;
   font-size: large;
+  margin-bottom: 10px;
 }
 
 .subheader {
@@ -104,6 +110,11 @@
   margin: 5px;
   text-decoration: none;
   color: black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .linkCont {
@@ -149,6 +160,14 @@
   color: black;
 }
 
+.accordion-button,
+.accordion-button.collapsed,
+.accordion-button.expanded,
+.accordion-button:not(.collapsed) {
+  background-color: powderblue;
+  color: black;
+}
+
 @media only screen and (max-width: 991px) {
 
   .carousel-image {
@@ -163,7 +182,7 @@
 }
 
 @media only screen and (max-width: 1199px) {
-  
+
   .linkText {
     font-size: medium;
   }

@@ -6,18 +6,19 @@ import Home from "./Home";
 import MyProjects from "./MyProjects";
 import AboutMe from "./AboutMe";
 import Heading from "./Heading";
-import Subheading from "./Subheading";
-import Links from "./Links";
+import Links from "./Links";  
 
 function App() {
 
   return (
     <Container>
       <Row>
-      <Col >
-        {<Heading />}
-        {<Subheading />}
-      </Col>
+        <Col md={8} sm={12} xs={12} className="headerText siteHeader">
+          {<Heading />}
+        </Col>
+        <Col md={4} sm={12} xs={12} className="headerText linkCont">
+          {<Links />}
+        </Col>
       </Row>
       <Row>
         <Col md={8} sm={12} xs={12}>

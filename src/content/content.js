@@ -6,6 +6,12 @@ import eyupimage from "./eyup.png";
 const content = {
   siteHeader: "Daniel Stoddart",
   siteSubheader: "Coding Academy Graduate & Former Industrial R&D Chemist",
+  siteHeaders: {
+    name: "Daniel Stoddart",
+    uni: "MChem in Chemistry",
+    rnd: "Former Industrial R&D Chemist",  
+    cod: "Coding Academy Graduate"
+  },
   homeHeading: "Recent Graduate of the EyUp Skills Full Stack Development Bootcamp",
   homeBody: "Target-oriented team player who delivers to a high standard and works well under pressure,"
   +" has delivered impactful projects within budget and to deadline, and has a proven track record of process and systems improvement."

@@ -1,14 +1,25 @@
-import { Row } from "react-bootstrap";
 import content from "../content/content";
 
 function Heading() {
 
+  const fadeEffect = () => {
+    var i = 0;
+    const change = () => {
+      var doc = document.getElementById("consoleEffect");
+      var color = ["mediumseagreen", "black"];
+      doc.style.color = color[i];
+      i = (i + 1) % color.length;
+    }
+    setInterval(change, 1000);
+  }
+
   return (
-    <Row className="headerText siteHeader">
-      <div>
-        <h1 className="centered">{content.siteHeader}</h1>
-      </div>
-    </Row>
+    <div>
+      {"> "}{content.siteHeaders.name}{<br></br>}
+      {"> "}{content.siteHeaders.uni}{<br></br>}
+      {"> "}{content.siteHeaders.rnd}{<br></br>}
+      {"> "}{content.siteHeaders.cod}<span id="consoleEffect" onLoad={fadeEffect()}>_</span>
+    </div>
   )
 }
 
