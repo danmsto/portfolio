@@ -114,14 +114,15 @@
   justify-content: center;
 }
 
-.linkContSmall {
-  display: none;
-}
-
 .linkImg {
   margin: 5px;
   max-height: 100%;
   width: auto;
+}
+
+.codewarsImg {
+  width: 100%;
+  height: auto;
 }
 
 .btn {
@@ -146,22 +147,6 @@
   background-color: #9DC7CC;
   border-color: #9DC7CC;
   color: black;
-}
-
-@media only screen and (max-width: 574px) {
-
-  .linkCont {
-    display: none;
-  }
-
-  .linkContSmall {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: none;
-    align-items: center;
-    justify-content: center;
-  }
-
 }
 
 @media only screen and (max-width: 991px) {

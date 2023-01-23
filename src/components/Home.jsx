@@ -8,9 +8,6 @@ function Home() {
     <Container className="mt-1 p-0">
       <h2>{content.homeHeading}</h2>
       <p>{content.homeBody}</p>
-      <div className="linkContSmall">
-        {<Links />}
-      </div>
     </Container>
   );
 }

@@ -1,42 +1,35 @@
-import { Card, Container, Row } from "react-bootstrap";
+import { Accordion, Card, Container, Row } from "react-bootstrap";
 import content from "../content/content";
 import ExperienceBulletPoints from "./ExperienceBulletPoints";
+import Links from "./Links";
 
 function AboutMe() {
 
-  const generateExperience = () => {
-    return (
-      <>
+  return (
+    <>
+      <Accordion defaultActiveKey="Full Stack Developer Student">
         {content.experience.map((experience) => {
           return (
-            <Row className="sideCol" key={experience.heading}>
-              <Card className="p-0 mb-2">
-                <Card.Header>
-                  <img src={experience.image} alt="experience" height={48} width={48} />
-                  {experience.heading}
-                </Card.Header>
-                <Card.Body>
-                  <Card.Text>
-                    {<ExperienceBulletPoints bulletPoints={experience.bulletPoints} />}
-                  </Card.Text>
-                </Card.Body>
-                <Card.Footer>
-                  {experience.location}, {experience.dates}
-                </Card.Footer>
-              </Card>
-            </Row>
-          );
+            <Accordion.Item eventKey={experience.heading} key={experience.heading}>
+              <Accordion.Header>
+                <img src={experience.image} alt="experience" height={48} width={48} />
+                {experience.heading}
+              </Accordion.Header>
+              <Accordion.Body>
+                {experience.location}{"\n\n"}
+                <ExperienceBulletPoints bulletPoints={experience.bulletPoints} />
+              </Accordion.Body>
+            </Accordion.Item>
+          )
         })}
-      </>
-    );
-  };
-
-  return (
-    <Container>
-      {generateExperience()}
-    </Container>
+      </Accordion>
+      <div className="linkCont">
+        <Links />
+      </div>
+      <img className="codewarsImg" src="https://www.codewars.com/users/danmsto/badges/large" />
+    </>
   )
 
-}
+};
 
 export default AboutMe;

@@ -1,25 +1,22 @@
 import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./App.css";
+import "../App.css";
 import { Col, Row } from "react-bootstrap";
-import Home from "./components/Home";
-import MyProjects from "./components/MyProjects";
-import AboutMe from "./components/AboutMe";
-import Heading from "./components/Heading";
-import Subheading from "./components/Subheading";
-import Links from "./components/Links";
+import Home from "./Home";
+import MyProjects from "./MyProjects";
+import AboutMe from "./AboutMe";
+import Heading from "./Heading";
+import Subheading from "./Subheading";
+import Links from "./Links";
 
 function App() {
 
   return (
     <Container>
       <Row>
-      <Col sm={8} xs={12}>
+      <Col >
         {<Heading />}
         {<Subheading />}
-      </Col>
-      <Col sm={4} xs={12} className="blackText linkCont">
-        {<Links />} 
       </Col>
       </Row>
       <Row>
