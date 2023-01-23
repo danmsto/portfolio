@@ -112,7 +112,7 @@ body {
   color: black;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: none;
   justify-content: center;
   align-items: center;
 }
@@ -120,7 +120,7 @@ body {
 .linkCont {
   display: flex;
   flex-direction: row;
-  flex-wrap: none;
+  flex-wrap: row;
   align-items: center;
   justify-content: center;
 }
@@ -168,6 +168,13 @@ body {
   color: black;
 }
 
+@media only screen and (max-width: 767px) {
+  .linkImg {
+    height: 30px;
+    width: 30px;
+  }
+}
+
 @media only screen and (max-width: 991px) {
 
   .carousel-image {
@@ -180,6 +187,7 @@ body {
     padding: 0;
   }
 }
+
 
 @media only screen and (max-width: 1199px) {
 
