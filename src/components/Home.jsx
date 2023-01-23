@@ -1,6 +1,5 @@
 import { Container } from "react-bootstrap";
 import content from "../content/content";
-import Links from "./Links";
 
 function Home() {
 
