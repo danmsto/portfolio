@@ -12,10 +12,10 @@ function AboutMe() {
             <Accordion.Item eventKey={experience.heading} key={experience.heading}>
               <Accordion.Header>
                 <img src={experience.image} alt={experience.heading} height={48} width={48} />
-                {experience.heading}
+                {experience.location}&emsp;<em>{experience.dates}</em>
               </Accordion.Header>
               <Accordion.Body>
-                {experience.location}{"\n\n"}
+                <strong>{experience.heading}</strong>
                 <ExperienceBulletPoints bulletPoints={experience.bulletPoints} />
               </Accordion.Body>
             </Accordion.Item>

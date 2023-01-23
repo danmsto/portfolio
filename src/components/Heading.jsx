@@ -10,7 +10,7 @@ function Heading() {
       doc.style.color = color[i];
       i = (i + 1) % color.length;
     }
-    setInterval(change, 1000);
+    setInterval(change, 750);
   }
 
   return (

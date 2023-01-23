@@ -19,7 +19,7 @@ const content = {
   experienceIntro: "Here is a brief overview of my experience",
   experience: [
     {
-      heading: "Full Stack Developer Student",
+      heading: "Full Stack Software Development Student",
       bulletPoints: [
         "Software Development bootcamp launched by David Richards MBE, CEO of WANdisco, plc., in partnership with IO Academy",
         "• Building functional Web Apps as part of Project Teams using Scrum methodology with Continuous Integration and Integration Testing",
@@ -49,7 +49,7 @@ const content = {
       location: "Infineum UK Ltd",
       dates: "2018-2022"
     }, {
-      heading: "MChem Student",
+      heading: "Chemistry Student",
       bulletPoints: [
         "• First-class MChem in Chemistry degree awarded",
         "• Master’s Project in Synthetic Chemistry under Prof Peter O’Brien"
