@@ -21,7 +21,7 @@ const content = {
     {
       heading: "Full Stack Software Development Student",
       bulletPoints: [
-        "Software Development bootcamp launched by David Richards MBE, CEO of WANdisco, plc., in partnership with IO Academy",
+        "Software Development bootcamp launched by David Richards MBE, CEO of WANdisco",
         "• Building functional Web Apps as part of Project Teams using Scrum methodology with Continuous Integration and Integration Testing",
         "• Running Unit Testing using Jest/JUnit frameworks and API Endpoint testing using Insomnia and Postman API Platforms",
         "• Producing a Hot-desk Booking App using the MERN stack, Java, the Spring application framework, and JPA for managing relational data",
