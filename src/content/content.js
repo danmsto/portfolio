@@ -1,7 +1,9 @@
-import yorkimage from "./universityofyork.png";
-import infineumimage from "./infineum.png";
-import eyupimage from "./eyup.png";
-
+// import yorkimage from "./universityofyork.png";
+// import infineumimage from "./infineum.png";
+// import eyupimage from "./eyup.png";
+import yorkimage from "./svgs/mchem.svg";
+import infineumimage from "./svgs/infineum.svg";
+import eyupimage from "./svgs/eyup.svg";
 
 const content = {
   siteHeader: "Daniel Stoddart",

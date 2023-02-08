@@ -7,6 +7,7 @@ import MyProjects from "./MyProjects";
 import AboutMe from "./AboutMe";
 import Heading from "./Heading";
 import Links from "./Links";  
+import Badges from "./Badges";
 
 function App() {
 
@@ -27,6 +28,9 @@ function App() {
           </Row>
           <Row className="bodySection blackText p-3 mt-2">
             {<Home />}
+          </Row>
+          <Row>
+            {<Badges />}
           </Row>
         </Col>
         <Col md={4} sm={12} xs={12} className="blackText">
