@@ -29,8 +29,13 @@ function App() {
           <Row className="bodySection blackText p-3 mt-2">
             {<Home />}
           </Row>
-          <Row>
+          <Row className="bodySection blackText p-3 mt-2">
             {<Badges />}
+          </Row>
+          <Row className="bodySection blackText p-3 mt-2">
+            <Col className="centered">
+              <img className="codewarsImg" alt="Codewars" src="https://www.codewars.com/users/danmsto/badges/large" />
+            </Col>
           </Row>
         </Col>
         <Col md={4} sm={12} xs={12} className="blackText">

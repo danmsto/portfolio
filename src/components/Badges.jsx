@@ -5,31 +5,39 @@ import htmlImage from "../content/badges/html.svg";
 import javaImage from "../content/badges/java.svg";
 import JSImage from "../content/badges/js.svg";
 import reactImage from "../content/badges/react.svg";
+import mySQLImage from "../content/badges/mysql.svg";
+import csmImage from "../content/badges/csm.png";
 
 function Badges() {
 
   return (
     <Container className="mt-1 p-0">
       <Row>
-        <Col>
-          <img alt="js" src={JSImage} />
+        <Col className="centered p-1">
+          <img alt="java" className="badges" src={javaImage} />
         </Col>
-        <Col>
-          <img alt="java" src={javaImage} />
+        <Col className="centered p-1">
+          <img alt="js" className="badges" src={JSImage} />
         </Col>
-        <Col>
-          <img alt="git" src={githubImage} />
+        <Col className="centered p-1">
+          <img alt="react" className="badges" src={reactImage} />
+        </Col>
+        <Col className="centered p-1">
+          <img alt="git" className="badges" src={githubImage} />
         </Col>
       </Row>
       <Row>
-        <Col>
-          <img alt="react" src={reactImage} />
+        <Col className="centered p-1">
+          <img alt="html" className="badges" src={htmlImage} />
         </Col>
-        <Col>
-          <img alt="html" src={htmlImage} />
+        <Col className="centered p-1">
+          <img alt="css" className="badges" src={cssImage} />
         </Col>
-        <Col>
-          <img alt="css" src={cssImage} />
+        <Col className="centered p-1">
+          <img alt="mySQL" className="badges" src={mySQLImage} />
+        </Col>
+        <Col className="centered p-1">
+          <img alt="csm" className="badges" src={csmImage} />
         </Col>
       </Row>
     </Container>
