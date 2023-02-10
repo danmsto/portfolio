@@ -1,7 +1,9 @@
-import yorkimage from "./universityofyork.png";
-import infineumimage from "./infineum.png";
-import eyupimage from "./eyup.png";
-
+// import yorkimage from "./universityofyork.png";
+// import infineumimage from "./infineum.png";
+// import eyupimage from "./eyup.png";
+import yorkimage from "./svgs/mchem.svg";
+import infineumimage from "./svgs/infineum.svg";
+import eyupimage from "./svgs/eyup.svg";
 
 const content = {
   siteHeader: "Daniel Stoddart",
@@ -12,7 +14,7 @@ const content = {
     rnd: "Former Industrial R&D Chemist",  
     cod: "Coding Academy Graduate"
   },
-  homeHeading: "Recent Graduate of the EyUp Skills Full Stack Development Bootcamp",
+  homeHeading: "Graduate of the EyUp Full Stack Development Academy from the December 2022 cohort",
   homeBody: "Target-oriented team player who delivers to a high standard and works well under pressure,"
   +" has delivered impactful projects within budget and to deadline, and has a proven track record of process and systems improvement."
   +" Quick learner keen to gain new skills and expand knowledge.",

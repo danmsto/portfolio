@@ -1,5 +1,5 @@
 import { Button, Carousel, Container, Image } from "react-bootstrap";
-import projects from "../content/projects.js";
+import projects from "../content/projects/projects.js";
 
 function MyProjects() {
   const generateCarousel = () => {

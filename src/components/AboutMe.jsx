@@ -22,7 +22,6 @@ function AboutMe() {
           )
         })}
       </Accordion>
-      <img className="codewarsImg" alt="Codewars" src="https://www.codewars.com/users/danmsto/badges/large" />
     </>
   )
 
