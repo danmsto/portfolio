@@ -13,30 +13,30 @@ function Badges() {
   return (
     <Container className="mt-1 p-0">
       <Row>
-        <Col className="centered p-1">
+        <Col className="centered p-10">
           <img alt="java" className="badges" src={javaImage} />
         </Col>
-        <Col className="centered p-1">
+        <Col className="centered p-10">
           <img alt="js" className="badges" src={JSImage} />
         </Col>
-        <Col className="centered p-1">
+        <Col className="centered p-10">
           <img alt="react" className="badges" src={reactImage} />
         </Col>
-        <Col className="centered p-1">
+        <Col className="centered p-10">
           <img alt="git" className="badges" src={githubImage} />
         </Col>
       </Row>
       <Row>
-        <Col className="centered p-1">
+        <Col className="centered p-10">
           <img alt="html" className="badges" src={htmlImage} />
         </Col>
-        <Col className="centered p-1">
+        <Col className="centered p-10">
           <img alt="css" className="badges" src={cssImage} />
         </Col>
-        <Col className="centered p-1">
+        <Col className="centered p-10">
           <img alt="mySQL" className="badges" src={mySQLImage} />
         </Col>
-        <Col className="centered p-1">
+        <Col className="centered p-10">
           <img alt="csm" className="badges" src={csmImage} />
         </Col>
       </Row>
