@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cb4f5a05.css",
-    "main.js": "/portfolio/static/js/main.4ee51448.js",
+    "main.js": "/portfolio/static/js/main.8f9f0ea1.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/sweetrelease.jpg": "/portfolio/static/media/sweetrelease.cd1e232e8e2a44b6297c.jpg",
     "static/media/deskotech.jpg": "/portfolio/static/media/deskotech.01739bc0454d87f74e33.jpg",
     "static/media/doughjoe.jpg": "/portfolio/static/media/doughjoe.401b6d0dde91bd5f5a58.jpg",
     "static/media/poolpool.jpg": "/portfolio/static/media/poolpool.1320a5f409fc35c9c63c.jpg",
     "static/media/csm.png": "/portfolio/static/media/csm.3e75e55f8bfb32ddb523.png",
+    "static/media/doughjoepizzalogo.png": "/portfolio/static/media/doughjoepizzalogo.060d38d4289c82eb97a9.png",
     "static/media/github.svg": "/portfolio/static/media/github.0c8b80d4210915bb885297edd3c0f1b2.svg",
     "static/media/mysql.svg": "/portfolio/static/media/mysql.e560e9267ae2ff461dce81fbdd5aa8d7.svg",
     "static/media/react.svg": "/portfolio/static/media/react.2aba3989d4112d5c30f137fbaeae484d.svg",
@@ -21,11 +22,11 @@
     "static/media/linkedin.svg": "/portfolio/static/media/linkedin.905c18c67b0078b3f6870f7cd2a95e14.svg",
     "static/media/css.svg": "/portfolio/static/media/css.75237a09b6c4645de31a9ff0f2b89515.svg",
     "main.cb4f5a05.css.map": "/portfolio/static/css/main.cb4f5a05.css.map",
-    "main.4ee51448.js.map": "/portfolio/static/js/main.4ee51448.js.map",
+    "main.8f9f0ea1.js.map": "/portfolio/static/js/main.8f9f0ea1.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb4f5a05.css",
-    "static/js/main.4ee51448.js"
+    "static/js/main.8f9f0ea1.js"
   ]
 }
