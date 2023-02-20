@@ -1,9 +1,4 @@
-// import yorkimage from "./universityofyork.png";
-// import infineumimage from "./infineum.png";
-// import eyupimage from "./eyup.png";
-import yorkimage from "./svgs/mchem.svg";
-import infineumimage from "./svgs/infineum.svg";
-import eyupimage from "./svgs/eyup.svg";
+import badgeDealer from "./badgeDealer";
 
 const content = {
   siteHeader: "Daniel Stoddart",
@@ -35,7 +30,7 @@ const content = {
         "• Building a Text Adventure Game fully in Java",
         "• Using MySQL Relational Databases to structure example databases on Library Loans and Social Media Posts"
       ],
-      image: eyupimage,
+      image: badgeDealer.eyup,
       location: "EyUp Skills Ltd",
       dates: "2022"
     }, {
@@ -47,18 +42,18 @@ const content = {
         "• Managing projects in Product Development, Test Problem Understanding and Solution, and Systems Improvement while managing stakeholder expectations and budgets up to £200,000",
         "• Authoring two published Technical Reports"
       ],
-      image: infineumimage,
+      image: badgeDealer.infineum,
       location: "Infineum UK Ltd",
-      dates: "2018-2022"
+      dates: "2018-22"
     }, {
       heading: "Chemistry Student",
       bulletPoints: [
         "• First-class MChem in Chemistry degree awarded",
         "• Master’s Project in Synthetic Chemistry under Prof Peter O’Brien"
       ],
-      image: yorkimage,
+      image: badgeDealer.mchem,
       location: "The University of York",
-      dates: "2014-2018"
+      dates: "2014-18"
     }
   ]
 

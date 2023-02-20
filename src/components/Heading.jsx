@@ -2,11 +2,14 @@ import content from "../content/content";
 
 function Heading() {
 
+  var b = document.querySelector('body');
+  var bs = getComputedStyle(b);
+
   const fadeEffect = () => {
     var i = 0;
     const change = () => {
       var doc = document.getElementById("consoleEffect");
-      var color = ["mediumseagreen", "black"];
+      var color = [bs.getPropertyValue('--background'), bs.getPropertyValue('--text')];
       doc.style.color = color[i];
       i = (i + 1) % color.length;
     }
