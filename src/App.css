@@ -163,6 +163,10 @@ body {
   height: auto;
 }
 
+.homeHeading {
+  text-align: center;
+}
+
 .codewarsImg {
   width: 100%;
   max-width: 500px;

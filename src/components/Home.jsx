@@ -5,7 +5,7 @@ function Home() {
 
   return (
     <Container className="mt-1 p-0">
-      <h3>{content.homeHeading}</h3>
+      <h3 className="homeHeading">{content.homeHeading}</h3>
       <p>{content.homeBody}</p>
     </Container>
   );
