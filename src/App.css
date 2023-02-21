@@ -5,7 +5,7 @@ body {
   --highlight: powderblue;
   --text: black;
   --buttoninteract: #9DC7CC;
-  --badge-brightness: 0;
+  --badge-invert-value: 0;
 }
 
 .App {
@@ -131,7 +131,7 @@ body {
 }
 
 .badgeBrightness {
-  filter: brightness(var(--badge-brightness));
+  filter: invert(var(--badge-invert-value));
 }
 
 .theme-switcher {

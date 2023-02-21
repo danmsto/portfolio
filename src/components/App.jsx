@@ -19,7 +19,7 @@ function App() {
           {<Heading />}
         </Col>
         <Col md={4} sm={12} xs={12} className="headerText linkCont">
-          {<ThemeSwitcher />}
+          {<Links />}
         </Col>
       </Row>
       <Row>
@@ -41,7 +41,7 @@ function App() {
         </Col>
         <Col md={4} sm={12} xs={12} className="blackText">
           <Row className="linkCont">
-            {<Links />}
+            {<ThemeSwitcher />}
           </Row>
           {<AboutMe />}
         </Col>
