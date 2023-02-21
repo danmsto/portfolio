@@ -1,16 +1,15 @@
 import { Col, Row } from "react-bootstrap";
-import githubIcon from "../content/svgs/github.svg"
-import linkedinIcon from "../content/svgs/linkedin.svg"
+import badgeDealer from "../content/badgeDealer";
 
 function Links() {
 
   return (
     <Row>
       <Col>
-        <a href="https://github.com/danmsto" className="linkText" target="_blank" rel="noreferrer"><img src={githubIcon} className="linkImg" alt="GitHub Logo"/>GitHub</a>
+        <a href="https://github.com/danmsto" className="linkText" target="_blank" rel="noreferrer"><img src={badgeDealer.github} className="linkImg badgeBrightness" alt="GitHub Logo"/>GitHub</a>
       </Col>
       <Col>
-        <a href="https://linkedin.com/in/danmsto" className="linkText" target="_blank" rel="noreferrer"><img src={linkedinIcon} className="linkImg" alt="LinkedIn Logo"/>LinkedIn</a>
+        <a href="https://linkedin.com/in/danmsto" className="linkText" target="_blank" rel="noreferrer"><img src={badgeDealer.linkedin} className="linkImg badgeBrightness" alt="LinkedIn Logo"/>LinkedIn</a>
       </Col>
     </Row>
     )

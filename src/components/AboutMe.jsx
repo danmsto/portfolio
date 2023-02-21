@@ -11,7 +11,7 @@ function AboutMe() {
           return (
             <Accordion.Item eventKey={experience.heading} key={experience.heading}>
               <Accordion.Header>
-                <img src={experience.image} alt={experience.heading} height={48} width={48} />
+                <img className="badgeBrightness" src={experience.image} alt={experience.heading} height={48} width={48} />
                 {experience.location}&emsp;<em>{experience.dates}</em>
               </Accordion.Header>
               <Accordion.Body>

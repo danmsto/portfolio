@@ -1,11 +1,15 @@
 body {
-  background-color: mediumseagreen;
-  background: mediumseagreen;
+  --background: mediumseagreen;
+  background: var(--background);
+  --foreground: white;
+  --highlight: powderblue;
+  --text: black;
+  --buttoninteract: #9DC7CC;
+  --badge-invert-value: 0;
 }
 
 .App {
   text-align: center;
-  background-color: mediumseagreen;
 }
 
 .App-logo {
@@ -20,7 +24,6 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,10 +31,6 @@ body {
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -52,8 +51,8 @@ body {
 }
 
 .carousel-caption {
-  background-color: white;
-  color: black;
+  background-color: var(--foreground);
+  color: var(--text);
   border-radius: 5px;
   padding: 5px;
 }
@@ -71,7 +70,7 @@ body {
 }
 
 .bodySection {
-  background-color: white;
+  background-color: var(--foreground);
   border-radius: 5px;
   margin: 0px;
   margin-bottom: 2vw;
@@ -79,7 +78,7 @@ body {
 
 .headerText {
   font-family: 'Azeret Mono', monospace;
-  color: black;
+  color: var(--text);
   font-size: large;
   margin-bottom: 10px;
 }
@@ -90,15 +89,15 @@ body {
 
 .blackText {
   font-family: 'Abel', sans-serif;
-  color: black;
+  color: var(--text);
 }
 
 .card-header {
-  background-color: powderblue;
+  background-color: var(--highlight);
 }
 
 .card-footer {
-  background-color: white;
+  background-color: var(--foreground);
 }
 
 .siteHeader {
@@ -109,7 +108,7 @@ body {
   font-size: x-large;
   margin: 5px;
   text-decoration: none;
-  color: black;
+  color: var(--text);
   display: flex;
   flex-direction: row;
   flex-wrap: none;
@@ -131,6 +130,34 @@ body {
   height: 50px;
 }
 
+.badgeBrightness {
+  filter: invert(var(--badge-invert-value));
+}
+
+.theme-switcher {
+  background-color: var(--highlight);
+  color: var(--text);
+  border-color: var(--highlight);
+}
+
+.theme-switcher:active {
+  background-color: var(--buttoninteract);
+  border-color: var(--buttoninteract);
+  color: var(--text);
+}
+
+.theme-switcher:hover {
+  background-color: var(--buttoninteract);
+  border-color: var(--buttoninteract);
+  color: var(--text);
+}
+
+.theme-switcher:focus {
+  background-color: var(--buttoninteract);
+  border-color: var(--buttoninteract);
+  color: var(--text);
+}
+
 .badges {
   width: 100%;
   height: auto;
@@ -144,35 +171,52 @@ body {
 }
 
 .btn {
-  background-color: powderblue;
-  color: black;
-  border-color: powderblue;
+  background-color: var(--highlight);
+  color: var(--text);
+  border-color: var(--highlight);
 }
 
 .btn:active {
-  background-color: #9DC7CC;
-  border-color: #9DC7CC;
-  color: black;
+  background-color: var(--buttoninteract);
+  border-color: var(--buttoninteract);
+  color: var(--text);
 }
 
 .btn:hover {
-  background-color: #9DC7CC;
-  border-color: #9DC7CC;
-  color: black;
+  background-color: var(--buttoninteract);
+  border-color: var(--buttoninteract);
+  color: var(--text);
 }
 
 .btn:focus {
-  background-color: #9DC7CC;
-  border-color: #9DC7CC;
-  color: black;
+  background-color: var(--buttoninteract);
+  border-color: var(--buttoninteract);
+  color: var(--text);
+  outline:0 !important;
+}
+
+.accordion,
+.accordion:active,
+.accordion-header,
+.accordion.collapse,
+.accordion-body,
+.accordion-button,
+.accordion-item {
+  border-color: var(--highlight);
 }
 
 .accordion-button,
 .accordion-button.collapsed,
 .accordion-button.expanded,
 .accordion-button:not(.collapsed) {
-  background-color: powderblue;
-  color: black;
+  background-color: var(--highlight);
+  color: var(--text);
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  background-color: var(--foreground);
+  color: var(--text);
 }
 
 @media only screen and (max-width: 767px) {

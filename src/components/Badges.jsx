@@ -1,12 +1,12 @@
 import { Col, Container, Row } from "react-bootstrap";
-import cssImage from "../content/badges/css.svg";
-import githubImage from "../content/badges/github.svg";
-import htmlImage from "../content/badges/html.svg";
-import javaImage from "../content/badges/java.svg";
-import JSImage from "../content/badges/js.svg";
-import reactImage from "../content/badges/react.svg";
-import mySQLImage from "../content/badges/mysql.svg";
-import csmImage from "../content/badges/csm.png";
+import cssImage from "../content/logos/css.svg";
+import gitImage from "../content/logos/git.svg"
+import htmlImage from "../content/logos/html.svg";
+import javaImage from "../content/logos/java.svg";
+import JSImage from "../content/logos/js.svg";
+import reactImage from "../content/logos/react.svg";
+import mySQLImage from "../content/logos/mysql.svg";
+import csmImage from "../content/logos/csm.png";
 
 function Badges() {
 
@@ -23,7 +23,7 @@ function Badges() {
           <img alt="react" className="badges" src={reactImage} />
         </Col>
         <Col className="centered p-10">
-          <img alt="git" className="badges" src={githubImage} />
+          <img alt="git" className="badges" src={gitImage} />
         </Col>
       </Row>
       <Row>

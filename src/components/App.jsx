@@ -8,6 +8,7 @@ import AboutMe from "./AboutMe";
 import Heading from "./Heading";
 import Links from "./Links";  
 import Badges from "./Badges";
+import ThemeSwitcher from "./ThemeSwitcher";
 
 function App() {
 
@@ -39,6 +40,9 @@ function App() {
           </Row>
         </Col>
         <Col md={4} sm={12} xs={12} className="blackText">
+          <Row className="linkCont">
+            {<ThemeSwitcher />}
+          </Row>
           {<AboutMe />}
         </Col>
       </Row>
