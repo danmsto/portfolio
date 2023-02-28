@@ -41,7 +41,7 @@ function ThemeSwitcher() {
 
   return (
     
-    <ButtonGroup className='mb-2'>
+    <ButtonGroup vertical className='mb-2'>
       {radios.map((radio, idx) => (
         <ToggleButton
           key={idx}
