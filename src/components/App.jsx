@@ -20,30 +20,26 @@ function App() {
         </Col>
         <Col md={4} sm={12} xs={12} className="headerText linkCont">
           {<Links />}
+          {<ThemeSwitcher />}
         </Col>
       </Row>
       <Row>
         <Col md={8} sm={12} xs={12}>
-          <Row className="bodySection blackText">
+          <Row className="blackText">
             {<MyProjects />}
-          </Row>
-          <Row className="bodySection blackText p-3 mt-2">
-            {<Home />}
-          </Row>
-          <Row className="bodySection blackText p-3 mt-2">
-            {<Badges />}
-          </Row>
-          <Row className="bodySection blackText p-3 mt-2">
-            <Col className="centered">
-              <img className="codewarsImg" alt="Codewars" src="https://www.codewars.com/users/danmsto/badges/large" />
-            </Col>
           </Row>
         </Col>
         <Col md={4} sm={12} xs={12} className="blackText">
-          <Row className="linkCont">
-            {<ThemeSwitcher />}
+          {/* <Row className="bodySection">
+            {<Home />}
+          </Row> */}
+            {<AboutMe />}
+          <Row className="bodySection mt-2">
+            {<Badges />}
           </Row>
-          {<AboutMe />}
+          <Row className="codeWarsDiv">
+            <img className="codewarsImg" alt="Codewars" src="https://www.codewars.com/users/danmsto/badges/large" />
+          </Row>
         </Col>
       </Row>
     </Container>

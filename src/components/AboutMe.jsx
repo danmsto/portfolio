@@ -6,7 +6,7 @@ function AboutMe() {
 
   return (
     <>
-      <Accordion defaultActiveKey="Full Stack Software Development Student">
+      <Accordion >
         {content.experience.map((experience) => {
           return (
             <Accordion.Item eventKey={experience.heading} key={experience.heading}>

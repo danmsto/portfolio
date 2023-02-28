@@ -167,11 +167,16 @@ body {
   text-align: center;
 }
 
+.codeWarsDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .codewarsImg {
   width: 100%;
   max-width: 500px;
   height: auto;
-  
 }
 
 .btn {
@@ -224,10 +229,11 @@ body {
 }
 
 @media only screen and (max-width: 767px) {
-  .linkImg {
-    height: 30px;
-    width: 30px;
+  .linkCont {
+    display: flex;
+    justify-content: space-between;
   }
+
 }
 
 @media only screen and (max-width: 991px) {
@@ -250,8 +256,4 @@ body {
     font-size: medium;
   }
 
-  .linkImg {
-    height: 50%;
-    width: 50%;
-  }
 }
