@@ -22,7 +22,7 @@ function Heading() {
       {"> "}{content.siteHeaders.uni}{<br></br>}
       {"> "}{content.siteHeaders.rnd}{<br></br>}
       {"> "}{content.siteHeaders.cod}{<br></br>}
-      {"> "}<span id="consoleEffect" onLoad={fadeEffect()}>_</span>
+      {"> "}{content.siteHeaders.dev1}<span id="consoleEffect" onLoad={fadeEffect()}>_</span>
     </div>
   )
 }
