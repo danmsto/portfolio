@@ -19,9 +19,10 @@ const content = {
     {
       heading: "Graduate Software Developer",
       bulletPoints: [
-        "• TypeScript with some C#",
+        "• TypeScript and C#",
         "• Building B2B Service Automation Software",
-        "• Working on API stuff etc (fill in here)"
+        "• Working bespoke automation solutions",
+        "• Event-driven Architecture"
       ],
       image: badgeDealer.ferrio,
       location: "Ferrio Ltd",
