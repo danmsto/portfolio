@@ -6,7 +6,7 @@ function MyProjects() {
   const generateCarousels = () => {
     return projects.map((project) => {
       return (
-        <Carousel variant="light" className="mb-1" fade interval={null} >
+        <Carousel variant="light" className="mb-1" fade interval={null} touch={false} >
           <Carousel.Item
             key={project.description}
           >

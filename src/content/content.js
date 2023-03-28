@@ -7,7 +7,8 @@ const content = {
     name: "Daniel Stoddart",
     uni: "MChem in Chemistry",
     rnd: "Former Industrial R&D Chemist",  
-    cod: "Coding Academy Graduate"
+    cod: "Coding Academy Graduate",
+    dev1: "Graduate Software Developer"
   },
   homeHeading: "Graduate of the EyUp Full Stack Development Academy from the December 2022 cohort",
   homeBody: "Target-oriented team player who delivers to a high standard and works well under pressure,"
@@ -16,6 +17,17 @@ const content = {
   experienceIntro: "Here is a brief overview of my experience",
   experience: [
     {
+      heading: "Graduate Software Developer",
+      bulletPoints: [
+        "• TypeScript and C#",
+        "• Building B2B Service Automation Software",
+        "• Working bespoke automation solutions",
+        "• Event-driven Architecture"
+      ],
+      image: badgeDealer.ferrio,
+      location: "Ferrio Ltd",
+      dates: "2023-date"
+    }, {
       heading: "Full Stack Software Development Student",
       bulletPoints: [
         "Software Development bootcamp launched by David Richards MBE, CEO of WANdisco",

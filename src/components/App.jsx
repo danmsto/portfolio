@@ -2,7 +2,6 @@ import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import { Col, Row } from "react-bootstrap";
-import Home from "./Home";
 import MyProjects from "./MyProjects";
 import AboutMe from "./AboutMe";
 import Heading from "./Heading";
