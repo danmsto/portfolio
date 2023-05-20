@@ -16,7 +16,7 @@ function MyProjects() {
               alt="Not appearing"
             />
             <Carousel.Caption className="mb-4">
-              <h3><Image src={project.logo}></Image> {project.title}</h3>
+              <h3 className="headerText"><Image src={project.logo}></Image> {project.title}</h3>
               <p>{project.description}</p>
               <Button variant="light" href={project.link} target="_blank" rel="noreferrer">{project.linkText}</Button>
             </Carousel.Caption>

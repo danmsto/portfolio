@@ -19,9 +19,9 @@ const content = {
     {
       heading: "Graduate Software Developer",
       bulletPoints: [
-        "• TypeScript and C#",
+        "• Low Code Automation consultancy and software company",
+        "• TypeScript and .NET",
         "• Building B2B Service Automation Software",
-        "• Working bespoke automation solutions",
         "• Event-driven Architecture"
       ],
       image: badgeDealer.ferrio,
