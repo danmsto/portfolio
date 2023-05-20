@@ -2,12 +2,12 @@ import { Container } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import { Col, Row } from "react-bootstrap";
-import MyProjects from "./MyProjects";
-import AboutMe from "./AboutMe";
-import Heading from "./Heading";
-import Links from "./Links";  
-import Badges from "./Badges";
-import ThemeSwitcher from "./ThemeSwitcher";
+import MyProjects from "./components/MyProjects";
+import AboutMe from "./components/AboutMe";
+import Heading from "./components/Heading";
+import Links from "./components/Links";  
+import Badges from "./components/Badges";
+import ThemeSwitcher from "./components/ThemeSwitcher";
 
 function App() {
 
