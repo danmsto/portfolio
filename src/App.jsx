@@ -17,7 +17,7 @@ function App() {
         <Col md={8} sm={12} xs={12} className="headerText siteHeader">
           {<Heading />}
         </Col>
-        <Col md={4} sm={12} xs={12} className="headerText linkCont">
+        <Col md={4} sm={12} xs={12} className="headerText linkCont highlightText">
           {<Links />}
           {<ThemeSwitcher />}
         </Col>

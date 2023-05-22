@@ -15,7 +15,8 @@ function AboutMe() {
                 &emsp;{experience.location}&emsp;<em>{experience.dates}</em>
               </Accordion.Header>
               <Accordion.Body>
-                <strong>{experience.heading}</strong>
+                <strong>{experience.heading}</strong><br/>
+                <text>{experience.subtitle}</text>
                 <ExperienceBulletPoints bulletPoints={experience.bulletPoints} />
               </Accordion.Body>
             </Accordion.Item>
