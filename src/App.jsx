@@ -29,9 +29,6 @@ function App() {
           </Row>
         </Col>
         <Col md={4} sm={12} xs={12} className="blackText">
-          {/* <Row className="bodySection">
-            {<Home />}
-          </Row> */}
             {<AboutMe />}
           <Row className="bodySection mt-2">
             {<Badges />}

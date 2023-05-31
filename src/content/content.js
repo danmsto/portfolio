@@ -20,6 +20,8 @@ const content = {
       heading: "Graduate Software Developer",
       subtitle: "Low Code Automation consultancy and software company",
       bulletPoints: [
+        "Writing production code for the front-end codebase with CI/CD practices",
+        "Using low code automation platforms and API services for client-facing work",
         "TypeScript and .NET",
         "Building B2B Service Automation Software",
         "Event-driven Architecture"
@@ -31,16 +33,14 @@ const content = {
       heading: "Full Stack Software Development Student",
       subtitle: "Software Development bootcamp launched by Sheffield-based firm WANdisco",
       bulletPoints: [
-        "Building functional Web Apps as part of Project Teams using Scrum methodology with Continuous Integration and Integration Testing",
-        "Running Unit Testing using Jest/JUnit frameworks and API Endpoint testing using Insomnia and Postman API Platforms",
-        "Producing a Hot-desk Booking App using the MERN stack, Java, the Spring application framework, and JPA for managing relational data",
+        "Building functional Web Apps as part of Project Teams using Scrum methodology",
+        "Running Unit Testing using Jest/JUnit frameworks and API endpoint testing",
+        "Producing web apps using the Spring Java framework and the MERN stack",
         "Structuring APIs in accordance to REST constraints",
-        "Applying the MERN stack to make a Food Ordering App",
-        "Managing source code using Git and GitHub repositories",
-        "Learning back-end tools with Node.js, Express, Maven, and MongoDB",
+        "Version control using Git and back-end tools such as Node.js, Express, and Maven",
         "Producing a Score Tracking Web App using JavaScript and HTML/CSS",
         "Building a Text Adventure Game fully in Java",
-        "Using MySQL Relational Databases to structure example databases on Library Loans and Social Media Posts"
+        "Using relational and document-oriented databases to manage practice data for library loans and social media posts"
       ],
       image: badgeDealer.eyup,
       location: "EyUp Skills Ltd",
@@ -52,7 +52,7 @@ const content = {
         "Designing and executing experimental programmes in external labs across Europe and North America for novel Product Development as well as performing proprietary experimentation for data generation",
         "Processing test data using JMP Statistical Modelling software",
         "Providing customer technical support for Daimler AG and later on the Shell International Account",
-        "Managing projects in Product Development, Test Problem Understanding and Solution, and Systems Improvement while managing stakeholder expectations and budgets up to £200,000",
+        "Managing projects in Product Development, Test Problem Understanding and Solution, and Systems Improvement while managing stakeholder expectations and budgets up to £210,000",
         "Authoring two published Technical Reports"
       ],
       image: badgeDealer.infineum,
