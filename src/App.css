@@ -8,6 +8,27 @@ body {
   --badge-invert-value: 0;
 }
 
+/* Fonts courtesy of https://www.fontsquirrel.com */
+@font-face {
+  font-family: FiraSans;
+  src: url("fonts/FiraSans-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: FiraCode;
+  src: url("fonts/FiraCode-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url("fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Cousine;
+  src: url("fonts/Cousine-Regular.ttf") format("truetype");
+}
+
 .App {
   text-align: center;
 }
@@ -77,10 +98,10 @@ body {
 }
 
 .headerText {
-  font-family: 'DM Mono', monospace;
+  font-family: 'Cousine', monospace;
   color: var(--text);
-  font-size: x-large;
-  margin-bottom: 10px;
+  font-size: large;
+  margin-bottom: 20px;
 }
 
 .subheader {
@@ -88,7 +109,7 @@ body {
 }
 
 .blackText {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'OpenSans', sans-serif;
   color: var(--text);
 }
 
