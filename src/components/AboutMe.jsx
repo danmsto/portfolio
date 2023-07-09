@@ -6,7 +6,7 @@ function AboutMe() {
 
   return (
     <>
-      <Accordion >
+      <Accordion defaultActiveKey={content.experience[0].heading}>
         {content.experience.map((experience) => {
           return (
             <Accordion.Item eventKey={experience.heading} key={experience.heading}>
