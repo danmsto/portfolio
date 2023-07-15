@@ -4,7 +4,7 @@ const content = {
   siteHeader: "Daniel Stoddart",
   siteSubheader: "Coding Academy Graduate & Former Industrial R&D Chemist",
   siteHeaders: {
-    name: "Daniel Stoddart",
+    // name: "Daniel Stoddart",
     uni: "MChem in Chemistry",
     rnd: "Former Industrial R&D Chemist",
     cod: "Coding Academy Graduate",
