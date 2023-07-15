@@ -6,14 +6,16 @@ const content = {
   siteHeaders: {
     name: "Daniel Stoddart",
     uni: "MChem in Chemistry",
-    rnd: "Former Industrial R&D Chemist",  
+    rnd: "Former Industrial R&D Chemist",
     cod: "Coding Academy Graduate",
-    dev1: "Graduate Software Developer"
+    dev1: "Graduate Software Developer",
   },
-  homeHeading: "Graduate of the EyUp Full Stack Development Academy from the December 2022 cohort",
-  homeBody: "Target-oriented team player who delivers to a high standard and works well under pressure,"
-  +" has delivered impactful projects within budget and to deadline, and has a proven track record of process and systems improvement."
-  +" Quick learner keen to gain new skills and expand knowledge.",
+  homeHeading:
+    "Graduate of the EyUp Full Stack Development Academy from the December 2022 cohort",
+  homeBody:
+    "Target-oriented team player who delivers to a high standard and works well under pressure," +
+    " has delivered impactful projects within budget and to deadline, and has a proven track record of process and systems improvement." +
+    " Quick learner keen to gain new skills and expand knowledge.",
   experienceIntro: "Here is a brief overview of my experience",
   experience: [
     {
@@ -24,14 +26,16 @@ const content = {
         "Using low code automation platforms and API services for client-facing work",
         "TypeScript and .NET",
         "Building B2B Service Automation Software",
-        "Event-driven Architecture"
+        "Event-driven Architecture",
       ],
       image: badgeDealer.ferrio,
       location: "Ferrio Ltd",
-      dates: "2023-date"
-    }, {
+      dates: "2023-date",
+    },
+    {
       heading: "Full Stack Software Development Student",
-      subtitle: "Software Development bootcamp launched by Sheffield-based firm WANdisco",
+      subtitle:
+        "Software Development bootcamp launched by Sheffield-based firm WANdisco",
       bulletPoints: [
         "Building functional Web Apps as part of Project Teams using Scrum methodology",
         "Running Unit Testing using Jest/JUnit frameworks and API endpoint testing",
@@ -40,38 +44,39 @@ const content = {
         "Version control using Git and back-end tools such as Node.js, Express, and Maven",
         "Producing a Score Tracking Web App using JavaScript and HTML/CSS",
         "Building a Text Adventure Game fully in Java",
-        "Using relational and document-oriented databases to manage practice data for library loans and social media posts"
+        "Using relational and document-oriented databases to manage practice data for library loans and social media posts",
       ],
       image: badgeDealer.eyup,
       location: "EyUp Skills Ltd",
-      dates: "2022"
-    }, {
+      dates: "2022",
+    },
+    {
       heading: "Industrial R&D Chemist",
-      subtitle: "World-leading Engine Oil Additives and Specialty Chemicals company",
+      subtitle:
+        "World-leading Engine Oil Additives and Specialty Chemicals company",
       bulletPoints: [
         "Designing and executing experimental programmes in external labs across Europe and North America for novel Product Development as well as performing proprietary experimentation for data generation",
         "Processing test data using JMP Statistical Modelling software",
         "Providing customer technical support for Daimler AG and later on the Shell International Account",
         "Managing projects in Product Development, Test Problem Understanding and Solution, and Systems Improvement while managing stakeholder expectations and budgets up to £210,000",
-        "Authoring two published Technical Reports"
+        "Authoring two published Technical Reports",
       ],
       image: badgeDealer.infineum,
       location: "Infineum UK Ltd",
-      dates: "2018-22"
-    }, {
+      dates: "2018-22",
+    },
+    {
       heading: "Chemistry Student",
       subtitle: "MChem in Chemistry",
       bulletPoints: [
         "First-class degree awarded",
-        "Master's Project in Synthetic Chemistry under Prof Peter O'Brien"
+        "Master's Project in Synthetic Chemistry under Prof Peter O'Brien",
       ],
       image: badgeDealer.mchem,
       location: "The University of York",
-      dates: "2014-18"
-    }
-  ]
-
-
+      dates: "2014-18",
+    },
+  ],
 };
 
 export default content;

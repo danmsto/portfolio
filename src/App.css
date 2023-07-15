@@ -4,7 +4,7 @@ body {
   --foreground: white;
   --highlight: powderblue;
   --text: black;
-  --buttoninteract: #9DC7CC;
+  --buttoninteract: #9dc7cc;
   --badge-invert-value: 0;
 }
 
@@ -87,7 +87,7 @@ body {
 }
 
 .headerText {
-  font-family: 'Cousine', monospace;
+  font-family: "Cousine", monospace;
   color: var(--text);
   font-size: large;
   margin-bottom: 20px;
@@ -98,7 +98,7 @@ body {
 }
 
 .blackText {
-  font-family: 'OpenSans', sans-serif;
+  font-family: "OpenSans", sans-serif;
   color: var(--text);
 }
 
@@ -218,7 +218,7 @@ body {
   background-color: var(--buttoninteract);
   border-color: var(--buttoninteract);
   color: var(--text);
-  outline:0 !important;
+  outline: 0 !important;
 }
 
 .accordion,
@@ -250,11 +250,9 @@ body {
     display: flex;
     justify-content: space-between;
   }
-
 }
 
 @media only screen and (max-width: 991px) {
-
   .carousel-image {
     height: 323px;
     width: auto;
@@ -266,11 +264,8 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 1199px) {
-
   .linkText {
     font-size: medium;
   }
-
 }
