@@ -8,17 +8,6 @@ body {
   --badge-invert-value: 0;
 }
 
-/* Fonts courtesy of https://www.fontsquirrel.com */
-@font-face {
-  font-family: FiraSans;
-  src: url("fonts/FiraSans-Regular.otf") format("opentype");
-}
-
-@font-face {
-  font-family: FiraCode;
-  src: url("fonts/FiraCode-Regular.otf") format("opentype");
-}
-
 @font-face {
   font-family: OpenSans;
   src: url("fonts/OpenSans-Regular.ttf") format("truetype");
@@ -182,13 +171,14 @@ body {
 .badges {
   width: 100%;
   height: auto;
+  padding: 10%;
 }
 
 .homeHeading {
   text-align: center;
 }
 
-.codeWarsDiv {
+.sidebarDiv {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -197,6 +187,12 @@ body {
 .codewarsImg {
   width: 100%;
   max-width: 500px;
+  height: auto;
+}
+
+.csmImg {
+  width: 100%;
+  max-width: 250px;
   height: auto;
 }
 

@@ -3,60 +3,56 @@ import projects from "../content/projects/projects.js";
 
 function MyProjects() {
 
-  const generateCarousels = () => {
-    return projects.map((project) => {
-      return (
+  return (
+    <Container className="p-0">
+      {
+        projects.map((p) => 
         <Carousel variant="light" className="mb-1" fade interval={null} touch={false} >
           <Carousel.Item
-            key={project.description}
+            key={p.description}
           >
             <img
               className="carousel-image"
-              src={project.image}
+              src={p.image}
               alt="Not appearing"
             />
             <Carousel.Caption className="mb-4">
-              <h3><Image src={project.logo}></Image> {project.title}</h3>
-              <p>{project.description}</p>
-              <Button variant="light" href={project.link} target="_blank" rel="noreferrer">{project.linkText}</Button>
+              <h3><Image src={p.logo}></Image> {p.title}</h3>
+              <p>{p.description}</p>
+              <Button variant="light" href={p.link} target="_blank" rel="noreferrer">{p.linkText}</Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item
-            key={project.functionality}
+            key={p.functionality}
           >
             <img
               className="carousel-image"
-              src={project.image1}
+              src={p.image1}
               alt="Not appearing"
             />
             <Carousel.Caption className="mb-4">
-              <h3><Image src={project.logo}></Image> {project.title}</h3>
-              <p>{project.functionality}</p>
-              <Button variant="light" href={project.link} target="_blank" rel="noreferrer">{project.linkText}</Button>
+              <h3><Image src={p.logo}></Image> {p.title}</h3>
+              <p>{p.functionality}</p>
+              <Button variant="light" href={p.link} target="_blank" rel="noreferrer">{p.linkText}</Button>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item
-            key={project.madeWith}
+            key={p.madeWith}
           >
             <img
               className="carousel-image"
-              src={project.image2}
+              src={p.image2}
               alt="Not appearing"
             />
             <Carousel.Caption className="mb-4">
-              <h3><Image src={project.logo}></Image> {project.title}</h3>
-              <p>{project.madeWith}</p>
-              <Button variant="light" href={project.link} target="_blank" rel="noreferrer">{project.linkText}</Button>
+              <h3><Image src={p.logo}></Image> {p.title}</h3>
+              <p>{p.madeWith}</p>
+              <Button variant="light" href={p.link} target="_blank" rel="noreferrer">{p.linkText}</Button>
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      );
-    });
-  };
-
-  return (
-    <Container className="p-0">
-      {generateCarousels()}
+      )
+  }
     </Container>
   );
 }
