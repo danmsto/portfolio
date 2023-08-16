@@ -22,7 +22,7 @@ const projects = [
     functionality:
       "This web app tracks Wins and Losses for different players, as well as providing ranking functionality to rank by Win % and total Wins, entries are editable and the list of players is stored between sessions",
     madeWith: "Made using JS",
-    link: "https://danmsto.github.io/poolPool/",
+    link: "https://danmsto.github.io/poolpool/",
     linkText: "Have a Look!",
     image: collectorImage,
     image1: collectorImage1,
