@@ -17,7 +17,7 @@ import deskotechLogo from "./deskotechlogo.png";
 
 const projects = [
   {
-    title: "poolPool",
+    title: "poolpool",
     description: "Tracker for Zero-sum 1-v-1 games (for desktop only)",
     functionality:
       "This web app tracks Wins and Losses for different players, as well as providing ranking functionality to rank by Win % and total Wins, entries are editable and the list of players is stored between sessions",
