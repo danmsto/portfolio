@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cc61ada0.css",
-    "main.js": "/portfolio/static/js/main.4b4fff41.js",
+    "main.js": "/portfolio/static/js/main.3461742b.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/ferrioimage.png": "/portfolio/static/media/ferrioimage.bef6ddb69c9cf4d39997.png",
+    "static/media/ferrioimage2.png": "/portfolio/static/media/ferrioimage2.56e8f7bc97fe234bf4c7.png",
+    "static/media/ferrioimage1.png": "/portfolio/static/media/ferrioimage1.3c71d8701acf939658a6.png",
     "static/media/doughjoe2.png": "/portfolio/static/media/doughjoe2.7233748d2ee5bb211a4c.png",
     "static/media/Cousine-Regular.ttf": "/portfolio/static/media/Cousine-Regular.f053f56e9dbfe67428d0.ttf",
     "static/media/doughjoe1.png": "/portfolio/static/media/doughjoe1.61c54fd38adeb0add8d9.png",
@@ -19,16 +22,16 @@
     "static/media/poolpool.jpg": "/portfolio/static/media/poolpool.1320a5f409fc35c9c63c.jpg",
     "static/media/csm.png": "/portfolio/static/media/csm.3e75e55f8bfb32ddb523.png",
     "static/media/doughjoepizzalogo.png": "/portfolio/static/media/doughjoepizzalogo.060d38d4289c82eb97a9.png",
-    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.527d0fc09fb3280153c26f0046a517a9.svg",
+    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.7e9c39a4b427a4d5df3aef6dbf3524c3.svg",
     "static/media/react.svg": "/portfolio/static/media/react.903d77ad940b12efaddde2484397ad4a.svg",
     "static/media/js.svg": "/portfolio/static/media/js.61c1fa6b2ee4eb8ce8d0e0c25ab67854.svg",
     "index.html": "/portfolio/index.html",
     "main.cc61ada0.css.map": "/portfolio/static/css/main.cc61ada0.css.map",
-    "main.4b4fff41.js.map": "/portfolio/static/js/main.4b4fff41.js.map",
+    "main.3461742b.js.map": "/portfolio/static/js/main.3461742b.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cc61ada0.css",
-    "static/js/main.4b4fff41.js"
+    "static/js/main.3461742b.js"
   ]
 }
