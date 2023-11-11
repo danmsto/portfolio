@@ -1,21 +1,38 @@
-import collectorImage from "./poolpool.jpg";
-import collectorImage1 from "./poolpool1.png";
-import collectorImage2 from "./poolpool2.png";
-import collectorLogo from "./poolpoollogo.png";
-import pizzaImage from "./doughjoe.jpg";
-import pizzaImage1 from "./doughjoe1.png";
-import pizzaImage2 from "./doughjoe2.png";
-import pizzaLogo from "./doughjoepizzalogo.png";
-import gameImage from "./sweetrelease.jpg";
-import gameImage1 from "./sweetrelease1.png";
-import gameImage2 from "./sweetrelease2.png";
-import gameLogo from "./sweetreleaselogo.png";
-import deskotechImage from "./deskotech.jpg";
-import deskotechImage1 from "./deskotech1.png";
-import deskotechImage2 from "./deskotech2.png";
-import deskotechLogo from "./deskotechlogo.png";
+import collectorImage from "./projects/poolpool.jpg";
+import collectorImage1 from "./projects/poolpool1.png";
+import collectorImage2 from "./projects/poolpool2.png";
+import collectorLogo from "./projects/poolpoollogo.png";
+import pizzaImage from "./projects/doughjoe.jpg";
+import pizzaImage1 from "./projects/doughjoe1.png";
+import pizzaImage2 from "./projects/doughjoe2.png";
+import pizzaLogo from "./projects/doughjoepizzalogo.png";
+import gameImage from "./projects/sweetrelease.jpg";
+import gameImage1 from "./projects/sweetrelease1.png";
+import gameImage2 from "./projects/sweetrelease2.png";
+import gameLogo from "./projects/sweetreleaselogo.png";
+import deskotechImage from "./projects/deskotech.jpg";
+import deskotechImage1 from "./projects/deskotech1.png";
+import deskotechImage2 from "./projects/deskotech2.png";
+import deskotechLogo from "./projects/deskotechlogo.png";
+import ferriologo from "./projects/ferriologo.png";
+import ferrioImage from "./projects/ferrioimage.png";
+import ferrioImage1 from "./projects/ferrioimage1.png";
+import ferrioImage2 from "./projects/ferrioimage2.png";
 
 const projects = [
+  {
+    title: "Ferrio Connect",
+    description: "Automation & Integration platform",
+    functionality:
+      "Low-code development platform with a visual drag-and-drop workflow designer, powerful task automation, and pre-built integrations",
+    madeWith: "Made with TypeScript, React, and .NET",
+    link: "https://ferrio.com/",
+    linkText: "Visit",
+    image: ferrioImage,
+    image1: ferrioImage1,
+    image2: ferrioImage2,
+    logo: ferriologo,
+  },
   {
     title: "poolpool",
     description: "Tracker for Zero-sum 1-v-1 games (for desktop only)",
