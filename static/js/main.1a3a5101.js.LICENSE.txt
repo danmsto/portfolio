@@ -45,7 +45,7 @@
  */
 
 /**
- * @remix-run/router v1.0.3
+ * @remix-run/router v1.12.0
  *
  * Copyright (c) Remix Software Inc.
  *
