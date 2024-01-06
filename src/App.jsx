@@ -63,6 +63,7 @@ function App() {
                   src={badgeDealer.github}
                   className="linkImg badgeBrightness"
                   alt="GitHub Logo"
+                  title="GitHub"
                 />
               </Nav.Link>
               <Nav.Link href="https://linkedin.com/in/danmsto">
@@ -70,6 +71,7 @@ function App() {
                   src={badgeDealer.linkedin}
                   className="linkImg badgeBrightness"
                   alt="LinkedIn Logo"
+                  title="LinkedIn"
                 />
               </Nav.Link>
             </Col>
@@ -110,6 +112,7 @@ function App() {
               <img
                 className="csmImg"
                 alt="Certified ScrumMaster"
+                title="Certified ScrumMaster"
                 src={csmLogo}
               />
             </Row>
@@ -117,6 +120,7 @@ function App() {
               <img
                 className="codewarsImg"
                 alt="Codewars"
+                title="Codewars"
                 src="https://www.codewars.com/users/danmsto/badges/large"
               />
             </Row>

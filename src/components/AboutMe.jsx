@@ -19,7 +19,8 @@ function AboutMe() {
                   height={48}
                   width={48}
                 />
-                &emsp;{experience.location}&emsp;<em>{experience.dates}</em>
+                &emsp;{experience.location}&emsp;
+                <em style={{ fontSize: 12 }}>{experience.dates}</em>
               </Accordion.Header>
               <Accordion.Body>
                 <strong>{experience.heading}</strong>

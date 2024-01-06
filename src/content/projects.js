@@ -18,8 +18,26 @@ import ferriologo from "./projects/ferriologo.png";
 import ferrioImage from "./projects/ferrioimage.png";
 import ferrioImage1 from "./projects/ferrioimage1.png";
 import ferrioImage2 from "./projects/ferrioimage2.png";
+import labLogicLogo from "./projects/lablogiclogo.png";
+import labLogicImage from "./projects/lablogicimage.png";
+import labLogicImage1 from "./projects/lablogicimage1.jpg";
+import labLogicImage2 from "./projects/lablogicimage2.png";
 
 const projects = [
+  {
+    title: "LabLogic SPECTra",
+    description:
+      "A SPECT radiopharmacy Laboratory Information Management System",
+    functionality:
+      "SPECTra is a true Radiopharmacy Laboratory Information Management System (LIMS), designed to improve efficiency and compliance",
+    madeWith: "Made with the .NET Framework",
+    link: "https://lablogic.com/nuclear-medicine-and-pet/software/spectra",
+    linkText: "Inspect",
+    image: labLogicImage,
+    image1: labLogicImage1,
+    image2: labLogicImage2,
+    logo: labLogicLogo,
+  },
   {
     title: "Ferrio Connect",
     description: "Automation & Integration platform",

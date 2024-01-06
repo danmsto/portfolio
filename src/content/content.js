@@ -18,6 +18,19 @@ const content = {
   experienceIntro: "Here is a brief overview of my experience",
   experience: [
     {
+      heading: "Software Developer",
+      subtitle: "Laboratory instrumentation and software company",
+      bulletPoints: [
+        "Using the .NET Framework to write and maintain laboratory inventory management systems for radiopharmaceutical applications",
+        "Engaging with private and public sector clients to deploy bespoke software with client-specific features",
+        "Complying with stringent regulatory standards and business logic",
+        "Refactoring legacy code and ensuring performance on older hardware",
+      ],
+      image: badgeDealer.lablogic,
+      location: "LabLogic Systems Ltd",
+      dates: "2024 to date",
+    },
+    {
       heading: "Graduate Software Developer",
       subtitle: "Low Code Automation consultancy and software company",
       bulletPoints: [
@@ -29,7 +42,7 @@ const content = {
       ],
       image: badgeDealer.ferrio,
       location: "Ferrio Ltd",
-      dates: "2023-date",
+      dates: "2023",
     },
     {
       heading: "Full Stack Software Development Student",
@@ -62,7 +75,7 @@ const content = {
       ],
       image: badgeDealer.infineum,
       location: "Infineum UK Ltd",
-      dates: "2018-22",
+      dates: "2018 to 2022",
     },
     {
       heading: "Chemistry Student",
@@ -73,7 +86,7 @@ const content = {
       ],
       image: badgeDealer.mchem,
       location: "The University of York",
-      dates: "2014-18",
+      dates: "2014 to 2018",
     },
   ],
 };
