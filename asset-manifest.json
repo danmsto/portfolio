@@ -1,13 +1,16 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.cc941df8.css",
-    "main.js": "/portfolio/static/js/main.1a3a5101.js",
+    "main.js": "/portfolio/static/js/main.d18f91e0.js",
     "static/media/sweetrelease.jpg": "/portfolio/static/media/sweetrelease.441859372c91dc0fb83b.jpg",
     "static/media/ferrioimage.png": "/portfolio/static/media/ferrioimage.bef6ddb69c9cf4d39997.png",
     "static/media/ferrioimage2.png": "/portfolio/static/media/ferrioimage2.56e8f7bc97fe234bf4c7.png",
     "static/media/doughjoe.jpg": "/portfolio/static/media/doughjoe.7ec7bd2aea895908160e.jpg",
     "static/media/poolpool.jpg": "/portfolio/static/media/poolpool.45b7c1b77c7fb06876ca.jpg",
+    "static/media/lablogicimage.png": "/portfolio/static/media/lablogicimage.cc7d6ce7e0ffa2ab23c7.png",
     "static/media/deskotech.jpg": "/portfolio/static/media/deskotech.df6417b9362419c2bcec.jpg",
+    "static/media/lablogicimage1.jpg": "/portfolio/static/media/lablogicimage1.810b151688f478b13f0b.jpg",
+    "static/media/lablogicimage2.png": "/portfolio/static/media/lablogicimage2.954741c660ebc30b2f98.png",
     "static/media/ferrioimage1.png": "/portfolio/static/media/ferrioimage1.3c71d8701acf939658a6.png",
     "static/media/doughjoe2.png": "/portfolio/static/media/doughjoe2.7233748d2ee5bb211a4c.png",
     "static/media/Cousine-Regular.ttf": "/portfolio/static/media/Cousine-Regular.f053f56e9dbfe67428d0.ttf",
@@ -26,10 +29,10 @@
     "static/media/js.svg": "/portfolio/static/media/js.61c1fa6b2ee4eb8ce8d0e0c25ab67854.svg",
     "index.html": "/portfolio/index.html",
     "main.cc941df8.css.map": "/portfolio/static/css/main.cc941df8.css.map",
-    "main.1a3a5101.js.map": "/portfolio/static/js/main.1a3a5101.js.map"
+    "main.d18f91e0.js.map": "/portfolio/static/js/main.d18f91e0.js.map"
   },
   "entrypoints": [
     "static/css/main.cc941df8.css",
-    "static/js/main.1a3a5101.js"
+    "static/js/main.d18f91e0.js"
   ]
 }
