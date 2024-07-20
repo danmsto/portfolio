@@ -22,14 +22,29 @@ import labLogicLogo from "./projects/lablogiclogo.png";
 import labLogicImage from "./projects/lablogicimage.png";
 import labLogicImage1 from "./projects/lablogicimage1.jpg";
 import labLogicImage2 from "./projects/lablogicimage2.png";
+import conkersWip from "./projects/conkersWIP.jpg";
+import conkersWipLogo from "./projects/conkersWIPlogo.png";
 
 const projects = [
   {
+    title: "Conkers (WIP)",
+    description: "A Blazor WebAssembly remake of poolPool",
+    functionality:
+      "Targets dynamic user icons, restoreable sessions, and potential database support",
+    madeWith: "ASP.NET Blazor WebAssembly",
+    link: "https://danmsto.github.io/conkers",
+    linkText: "Conk",
+    image: conkersWip,
+    image1: conkersWip,
+    image2: conkersWip,
+    logo: conkersWipLogo,
+  },
+  {
     title: "LabLogic SPECTra",
     description:
-      "A SPECT radiopharmacy Laboratory Information Management System",
+      "A SPECT radiopharmacy Laboratory Inventory Management System (LIMS)",
     functionality:
-      "SPECTra is a true Radiopharmacy Laboratory Information Management System (LIMS), designed to improve efficiency and compliance",
+      "SPECTra is a true Radiopharmacy LIMS, designed to improve efficiency and compliance",
     madeWith: "Made with the .NET Framework",
     link: "https://lablogic.com/nuclear-medicine-and-pet/software/spectra",
     linkText: "Inspect",
@@ -99,7 +114,7 @@ const projects = [
     functionality:
       "A fully Java game, this produces a pop up window in which you can see the game text, input your commands, and have a map of your location on the ship as well as previously explored locations. Player actions can impact accessible areas.",
     madeWith: "Made using Java",
-    link: "https://replit.com/@danmsto/Sweet-Release?v=1",
+    link: "https://github.com/danmsto/sweet-release",
     linkText: "Play",
     image: gameImage,
     image1: gameImage1,
