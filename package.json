@@ -4,12 +4,13 @@
   "homepage": "https://danmsto.github.io/portfolio",
   "private": true,
   "dependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "bootstrap": "^5.2.3",
-    "react": "^18.2.0",
+    "eslint-config-react-app": "^7.0.1",
+    "react": "^18.3.1",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -38,8 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "gh-pages": "^4.0.0",
+    "gh-pages": "^6.1.1",
     "react-router-dom": "^6.4.3"
   }
 }
