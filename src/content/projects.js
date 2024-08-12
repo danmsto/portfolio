@@ -22,8 +22,9 @@ import labLogicLogo from "./projects/lablogiclogo.png";
 import labLogicImage from "./projects/lablogicimage.png";
 import labLogicImage1 from "./projects/lablogicimage1.jpg";
 import labLogicImage2 from "./projects/lablogicimage2.png";
-import conkersWip from "./projects/conkersWIP.jpg";
-import conkersWipLogo from "./projects/conkersWIPlogo.png";
+import wip from "./projects/wipBackground.jpg";
+import conkersLogo from "./projects/conkersLogo.png";
+import bHookLogo from "./projects/bHookLogo.png";
 
 const projects = [
   {
@@ -33,11 +34,24 @@ const projects = [
       "Targets dynamic user icons, restoreable sessions, and potential database support",
     madeWith: "ASP.NET Blazor WebAssembly",
     link: "https://danmsto.github.io/conkers",
-    linkText: "Conk",
-    image: conkersWip,
-    image1: conkersWip,
-    image2: conkersWip,
-    logo: conkersWipLogo,
+    linkText: "Consider",
+    image: wip,
+    image1: wip,
+    image2: wip,
+    logo: conkersLogo,
+  },
+  {
+    title: "bHook (WIP)",
+    description:
+      "An Avalonia WPF desktop application for displaying system information",
+    functionality: "Targets a clean UI design language and hardware monitoring",
+    madeWith: "Avalonia/WPF and LibreHardwareMonitor",
+    link: "https://danmsto.github.io/bhook",
+    linkText: "Have a Butcher's Hook!",
+    image: wip,
+    image1: wip,
+    image2: wip,
+    logo: bHookLogo,
   },
   {
     title: "LabLogic SPECTra",
