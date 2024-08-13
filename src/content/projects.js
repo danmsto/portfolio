@@ -46,7 +46,7 @@ const projects = [
       "An Avalonia WPF desktop application for displaying system information",
     functionality: "Targets a clean UI design language and hardware monitoring",
     madeWith: "Avalonia/WPF and LibreHardwareMonitor",
-    link: "https://danmsto.github.io/bhook",
+    link: "https://github.com/danmsto/bhook",
     linkText: "Have a Butcher's Hook!",
     image: wip,
     image1: wip,
