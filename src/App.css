@@ -116,6 +116,10 @@ body {
   background-color: var(--foreground);
 }
 
+.status-card {
+  background-color: var(--highlight);
+}
+
 .navbar {
   color: var(--text);
   background-color: var(--background);

@@ -25,6 +25,13 @@ import labLogicImage2 from "./projects/lablogicimage2.png";
 import wip from "./projects/wipBackground.jpg";
 import conkersLogo from "./projects/conkersLogo.png";
 import bHookLogo from "./projects/bHookLogo.png";
+import thinklinkLogo from "./projects/thinklinkLogo.png";
+
+const Status = {
+  Archived: "Archived",
+  Active: "Active",
+  Professional: "Professional",
+};
 
 const projects = [
   {
@@ -39,6 +46,7 @@ const projects = [
     image1: wip,
     image2: wip,
     logo: conkersLogo,
+    status: Status.Active,
   },
   {
     title: "bHook (WIP)",
@@ -52,6 +60,21 @@ const projects = [
     image1: wip,
     image2: wip,
     logo: bHookLogo,
+    status: Status.Active,
+  },
+  {
+    title: "thinklink",
+    description:
+      "A simple C# client-server repository for transferring media files between computers on the same LAN",
+    functionality: "Large file streaming and management over LAN",
+    madeWith: "C# .NET",
+    link: "https://github.com/danmsto/thinklink",
+    linkText: "Link",
+    image: wip,
+    image1: wip,
+    image2: wip,
+    logo: thinklinkLogo,
+    status: Status.Active,
   },
   {
     title: "LabLogic SPECTra",
@@ -66,6 +89,7 @@ const projects = [
     image1: labLogicImage1,
     image2: labLogicImage2,
     logo: labLogicLogo,
+    status: Status.Professional,
   },
   {
     title: "Ferrio Connect",
@@ -79,6 +103,7 @@ const projects = [
     image1: ferrioImage1,
     image2: ferrioImage2,
     logo: ferriologo,
+    status: Status.Professional,
   },
   {
     title: "poolpool",
@@ -92,6 +117,7 @@ const projects = [
     image1: collectorImage1,
     image2: collectorImage2,
     logo: collectorLogo,
+    status: Status.Archived,
   },
   {
     title: "DoughJoe Pizza",
@@ -106,6 +132,7 @@ const projects = [
     image1: pizzaImage1,
     image2: pizzaImage2,
     logo: pizzaLogo,
+    status: Status.Archived,
   },
   {
     title: "Deskotech",
@@ -120,6 +147,7 @@ const projects = [
     image1: deskotechImage1,
     image2: deskotechImage2,
     logo: deskotechLogo,
+    status: Status.Archived,
   },
   {
     title: "Sweet Release",
@@ -134,6 +162,7 @@ const projects = [
     image1: gameImage1,
     image2: gameImage2,
     logo: gameLogo,
+    status: Status.Archived,
   },
 ];
 
