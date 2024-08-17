@@ -35,7 +35,7 @@ const Status = {
 
 const projects = [
   {
-    title: "Conkers (WIP)",
+    title: "Conkers",
     description: "A Blazor WebAssembly remake of poolPool",
     functionality:
       "Targets dynamic user icons, restoreable sessions, and potential database support",
@@ -49,7 +49,7 @@ const projects = [
     status: Status.Active,
   },
   {
-    title: "bHook (WIP)",
+    title: "bHook",
     description:
       "An Avalonia WPF desktop application for displaying system information",
     functionality: "Targets a clean UI design language and hardware monitoring",
@@ -63,7 +63,7 @@ const projects = [
     status: Status.Active,
   },
   {
-    title: "thinklink",
+    title: "ThinkLink",
     description:
       "A simple C# client-server repository for transferring media files between computers on the same LAN",
     functionality: "Large file streaming and management over LAN",
