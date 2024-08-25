@@ -15,11 +15,11 @@ function MyProjects() {
               width: "90px",
               position: "absolute",
               zIndex: 400,
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
+              display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
               fontSize: 13,
-              wordWrap: 'normal'
+              wordWrap: "normal",
             }}
           >
             {p.status}

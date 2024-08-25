@@ -20,20 +20,13 @@ function Heading() {
 
   return (
     <div>
-      {/* {"danmsto> "}
-      {content.siteHeaders.name}
-      {<br></br>} */}
-      {"danmsto> "}
-      {content.siteHeaders.uni}
-      {<br></br>}
-      {"danmsto> "}
-      {content.siteHeaders.rnd}
-      {<br></br>}
-      {"danmsto> "}
-      {content.siteHeaders.cod}
-      {<br></br>}
-      {"danmsto> "}
-      {content.siteHeaders.dev1}
+      {"danmsto> " + content.siteHeaders.uni}
+      <br />
+      {"danmsto> " + content.siteHeaders.rnd}
+      <br />
+      {"danmsto> " + content.siteHeaders.cod}
+      <br />
+      {"danmsto> " + content.siteHeaders.dev1}
       <span id="consoleEffect" onLoad={fadeEffect()}>
         _
       </span>
