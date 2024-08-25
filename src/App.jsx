@@ -6,7 +6,6 @@ import MyProjects from "./components/MyProjects";
 import AboutMe from "./components/AboutMe";
 import Heading from "./components/Heading";
 import Badges from "./components/Badges";
-import csmLogo from "./content/logos/csm.png";
 import badgeDealer from "./content/badgeDealer";
 import { useEffect, useState } from "react";
 
@@ -108,22 +107,6 @@ function App() {
           </Col>
           <Col md={4} sm={12} xs={12} className="blackText">
             <AboutMe />
-            <Row className="sidebarDiv">
-              <img
-                className="csmImg"
-                alt="Certified ScrumMaster"
-                title="Certified ScrumMaster"
-                src={csmLogo}
-              />
-            </Row>
-            <Row className="sidebarDiv">
-              <img
-                className="codewarsImg"
-                alt="Codewars"
-                title="Codewars"
-                src="https://www.codewars.com/users/danmsto/badges/large"
-              />
-            </Row>
             <Row className="bodySection mt-2">
               <Badges />
             </Row>
