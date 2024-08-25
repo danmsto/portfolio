@@ -65,7 +65,7 @@ const projects = [
   {
     title: "ThinkLink",
     description:
-      "A simple C# client-server repository for transferring media files between computers on the same LAN",
+      "A simple C# server application for accessing large media files over a local area network",
     functionality: "Large file streaming and management over LAN",
     madeWith: "C# .NET",
     link: "https://github.com/danmsto/thinklink",
@@ -107,7 +107,7 @@ const projects = [
   },
   {
     title: "poolpool",
-    description: "Tracker for Zero-sum 1-v-1 games (for desktop only)",
+    description: "Tracker for Zero-sum 1-v-1 games (widescreen only)",
     functionality:
       "This web app tracks Wins and Losses for different players, as well as providing ranking functionality to rank by Win % and total Wins, entries are editable and the list of players is stored between sessions",
     madeWith: "Made using JS",
