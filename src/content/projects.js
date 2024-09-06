@@ -23,29 +23,30 @@ import labLogicImage from "./projects/lablogicimage.png";
 import labLogicImage1 from "./projects/lablogicimage1.jpg";
 import labLogicImage2 from "./projects/lablogicimage2.png";
 import wip from "./projects/wipBackground.jpg";
-import conkersLogo from "./projects/conkersLogo.png";
+import duelsLogo from "./projects/duelsLogo.png";
 import bHookLogo from "./projects/bHookLogo.png";
 import thinklinkLogo from "./projects/thinklinkLogo.png";
 
 const Status = {
   Archived: "Archived",
   Active: "Active",
-  Professional: "Professional",
+  Ferrio: "@ Ferrio",
+  LabLogic: "@ LabLogic",
 };
 
 const projects = [
   {
-    title: "Conkers",
-    description: "A Blazor WebAssembly remake of poolPool",
+    title: "Duels",
+    description: "A feature rich reinvention of poolpool",
     functionality:
       "Targets dynamic user icons, restoreable sessions, and potential database support",
-    madeWith: "ASP.NET Blazor WebAssembly",
-    link: "https://danmsto.github.io/conkers",
-    linkText: "Consider",
+    madeWith: "ASP.NET with Blazor",
+    link: "https://danmsto.github.io/duels",
+    linkText: "Accept the Challenge",
     image: wip,
     image1: wip,
     image2: wip,
-    logo: conkersLogo,
+    logo: duelsLogo,
     status: Status.Active,
   },
   {
@@ -89,7 +90,7 @@ const projects = [
     image1: labLogicImage1,
     image2: labLogicImage2,
     logo: labLogicLogo,
-    status: Status.Professional,
+    status: Status.LabLogic,
   },
   {
     title: "Ferrio Connect",
@@ -103,7 +104,7 @@ const projects = [
     image1: ferrioImage1,
     image2: ferrioImage2,
     logo: ferriologo,
-    status: Status.Professional,
+    status: Status.Ferrio,
   },
   {
     title: "poolpool",

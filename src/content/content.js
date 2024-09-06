@@ -10,7 +10,7 @@ const content = {
     dev1: "Software Developer",
   },
   homeHeading:
-    "Graduate of the EyUp Full Stack Development Academy from the December 2022 cohort",
+    "Graduate of the EyUp Full Stack Development Academy",
   homeBody:
     "Target-oriented team player who delivers to a high standard and works well under pressure," +
     " has delivered impactful projects within budget and to deadline, and has a proven track record of process and systems improvement." +
